@@ -4,7 +4,7 @@
 
 <br>
 
-> Ce cours prendra pour exemple trois langage de programmation comme support, les langages seront [**PHP**](https://php.net/ "Documentation PHP"), [**Javascript**](https://developer.mozilla.org/fr/docs/Web/JavaScript "Documentation Javascript") ainsi que le [**Java**](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html "Documentation Java")
+> Ce cours prendra pour exemple trois langages de programmation comme support, les langages seront [**PHP**](https://php.net/ "Documentation PHP"), [**Javascript**](https://developer.mozilla.org/fr/docs/Web/JavaScript "Documentation Javascript") ainsi que le [**Java**](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html "Documentation Java").
 
 ## Chapitres
 
@@ -14,7 +14,8 @@
     -   **[Variables](#variable "Chapitre 1.3")**<br>
 -   **[Opérateurs logiques et de comparaisons](#operators "Chapitre 2")**<br>
 -   **[Conditions](#conditions "Chapitre 3")**<br>
--   **[Boucles](#boucles "Chapitre 4")**
+-   **[Boucles](#boucles "Chapitre 4")**<br>
+-   **[Erreurs](#error "Chapitre 5")**<br>
     <br>
 
 ## Variables, Constantes et Types<a name="variable-constante-type"></a><br>
@@ -28,21 +29,21 @@ Comme vous avez pu le lire dans le titre, nous allons voir dans ce premier chapi
 En informatique, lorsque nous parlons de types, il est question de **types de données**. Un type est ce qui défini la nature des valeurs que peut prendre une donnée.
 Il existe différents type de données que vous retrouverez ci-dessous :
 
--   **String** (chaîne de caractères), est un type qui s'écrit entre ", il peut contenir toutes les sortes de caractères. Exemple &rarr; `"string"`
--   **Integer** (Nombre entier relatif), est un type qui contient tout les entiers naturels auquel on ajoute un signe positif ou négatif. Exemple &rarr; `12`
+-   **String** (chaîne de caractères), est un type qui s'écrit entre **`"`**, il peut contenir toutes les sortes de caractères. Exemple &rarr; `"string"`
+-   **Integer** (Nombre entier relatif), est un type qui contient tous les entiers naturels auquel on ajoute un signe positif ou négatif. Exemple &rarr; `12` ou `-3`
 -   **Float** (Nombre réel ou flottant), est un type contenant tous les nombres de l'ensemble réel, c'est à dire tous les nombres, ayant un nombre fini ou infini de décimal(s). Exemple &rarr; `1.465`
--   **Boolean** (Booléen), est un type pouvant prendre uniquement 2 valeurs, qui sont _TRUE_ ou _FALSE_. Exemple &rarr; `TRUE`
--   **Array** (Tableau), est un type de données paramétrés, il peut contenir plusieurs contrairement aux précédent, il peut contenir plusieurs données et de plusiseurs types. Sa syntaxe est [] et chaque élément sont séparé par une `,`. Exemple &rarr; `["ma variable", 12, TRUE]`
+-   **Boolean** (Booléen), est un type possédant uniquement 2 états, qui sont généralement _TRUE_ ou _FALSE_. Exemple &rarr; `TRUE`
+-   **Array** (Tableau), est un type de données paramétrées, contrairement aux précédent, il peut contenir plusieurs données . Sa syntaxe est généralement [ ] et chaque élément est séparé des autres par une `,`. Exemple &rarr; `["ma variable", "12", "TRUE"]`
 
 ---
 
 ### Variables<a name="variable"></a>
 
 Avant toutes choses, definissons ce qu'est une variable, afin de partir avec les mêmes bases.
-Le terme de **variable** est un terme provenant des [mathématiques](https://fr.wikipedia.org/wiki/Math%C3%A9matiques), d'après le site [stephonsays](https://fr.strephonsays.com/variable-and-vs-constant-8185), les variables mathématiques sont des éléments qui peuvent contenir une valeur qui peut être modifié. Les principales utilisations des variables sont dans les équations ou les fonctions.
-Dans l'exemple ci-contre, x est un variable représentant l'inconnu. `x²-2x+4=0`
+Le terme de **variable** est un terme provenant des [mathématiques](https://fr.wikipedia.org/wiki/Math%C3%A9matiques), d'après le site [stephonsays](https://fr.strephonsays.com/variable-and-vs-constant-8185), les variables mathématiques sont des éléments qui peuvent contenir une valeur qui peut être modifiée. Les principales utilisations des variables sont dans les équations ou les fonctions.
+Dans l'exemple ci-contre, **`x`** est un variable représentant l'inconnu. `x²-2x+4=0`
 
-En programmation, les variables ont le même principe, c'est un élément qui peut changer de valeur durant l'éxécution d'un programme.
+En programmation, les variables fonctionne sur le même principe, c'est un élément qui peut changer de valeur durant l'éxécution d'un programme.
 
 #### Comment déclare-t-on une variable ?
 
@@ -90,14 +91,14 @@ _Java étant un langage fortement typé, il est nécessaire de comprendre les [t
 
 ### Constantes<a name="constante"></a>
 
-Il est temps de passé aux constantes, le constantes sont des éléments, comme les variable, provenant des [mathématiques](https://fr.wikipedia.org/wiki/Math%C3%A9matiques), qui peuvent contenir des données. Les constantes sont généralement visible dans les sciences de la nature ou la physique et la chimie, par exemple il existe la [constante d'avogardro](https://fr.wikipedia.org/wiki/Nombre_d%27Avogadro). Cependant à la différence des variables, une constante ne peut pas changer de valeur.
+Il est temps de passé aux constantes, les constantes sont des éléments, comme les variable, provenant des [mathématiques](https://fr.wikipedia.org/wiki/Math%C3%A9matiques), qui peuvent contenir des données. Les constantes sont généralement visible dans les sciences de la nature ou la physique et la chimie, par exemple il existe la [constante d'Avogadro](https://fr.wikipedia.org/wiki/Nombre_d%27Avogadro). Cependant à la différence des variables, une constante ne peut pas changer de valeur.
 <br>
 
-En programmation, les constantes possèdent le même fonctionnement, elles **ne peuvent pas changer de valeur** durant l'exécution. Si un programme essaie de modifier la valeur d'une constante, le programme sera stopper et affichera une erreur.
+En programmation, les constantes possèdent le même fonctionnement, elles **ne peuvent pas changer de valeur** durant l'exécution. Si un programme essaie de modifier la valeur d'une constante, le programme sera stopper et affichera une [erreur](#error "Erreurs").
 
 #### Comment déclare-t-on une constante ?
 
-Tout comme pour les variables, il existe plusieurs façon de déclarer une constante, cela dépend également du langage utilisé.
+Tout comme pour les variables, il existe plusieurs façon de déclarer une constante, cela dépend également du langage utilisé. Si vous essayez de redéfinir ou modifier la valeur d'une constante, le programme **s'arretera et affichera une erreur**.
 
 Voici les exemples pour les différents langages support.
 
@@ -145,18 +146,20 @@ System.out.println(B); // Renvoie => 12
 
 <br>
 
-> ##### :warning: Les opérateurs logiques et les opérateurs de comparaisons sont des opérateurs qui vous seront utile pour le prochain chapitre sur les conditions, il est donc essentiel de comprendre ce chapitre avant de passé à la suite !
+> ##### :warning: Les opérateurs logiques et les opérateurs de comparaisons sont des opérateurs qui vous seront utile pour le prochain chapitre sur les [conditions](#conditions), il est donc essentiel de comprendre ce chapitre avant de passé à la suite !
 
 -   Les opérateurs logiques
     <br>
 
 Liste d'opérateurs logiques existant
 
-| Opérateur | Syntaxe | Exemple  |                  Résultat                  |
-| --------- | :-----: | :------: | :----------------------------------------: |
-| AND (ET)  |   &&    |  a && b  | Renvoie _TRUE_ si a **ET** b valent _TRUE_ |
-| OR (OU)   |  \|\|   | a \|\| b |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  |
-| NOT (NON) |    !    |    !a    | Renvoie _TRUE_ si a **ne vaut pas** _TRUE_ |
+| Opérateur | Syntaxe | Exemple  |                  Résultat                  |                                                      Fonctionnement                                                       |
+| --------- | :-----: | :------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| AND (ET)  |   &&    |  a && b  | Renvoie _TRUE_ si a **ET** b valent _TRUE_ | **`&&`** vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorqu'une opérations renvoie _FALSE_ |
+| AND (ET)  |    &    |  a & b   | Renvoie _TRUE_ si a **ET** b valent _TRUE_ |                                   **`&`** vérifie les deux opérations quoi qu'il arrive                                   |
+| OR (OU)   |  \|\|   | a \|\| b |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  |                                                             `                                                             |                                                 | ` vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorsqu'une opérations renvoie _FALSE_ |
+| OR (OU)   |   \|    |  a \| b  |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  |                                                             `                                                             | ` vérifie les deux opérations quoi qu'il arrive |
+| NOT (NON) |    !    |    !a    |    Renvoie _TRUE_ si a **VAUT** _FALSE_    |                                    `!` vérifie le caractère contraire d'une opérations                                    |
 
 <br>
 
@@ -165,16 +168,16 @@ Liste d'opérateurs logiques existant
 
 Liste des opérateurs de comparaisons
 
-| Opérateur         | Syntaxe | Exemple |                                                    Résultat |
-| ----------------- | :-----: | :-----: | ----------------------------------------------------------: |
-| Egal              |   ==    | a == b  |                     Renvoie _TRUE_ si a et b sont **EGAUX** |
-| Identique         |   ===   | a === b | Renvoie _TRUE_ si a et b sont **EGAUX** et **DE MÊME TYPE** |
-| Différent         |   !=    | a != b  |                 Renvoie _TRUE_ si a et b sont **DIFFERENT** |
-| Différent         |   !==   | a !== b |                 Renvoie _TRUE_ si a et b sont **DIFFERENT** |
-| Inférieur         |    <    |  a < b  |                   Renvoie _TRUE_ si a est **INFERIEUR** à b |
-| Inférieur ou égal |   <=    | a <= b  |           Renvoie _TRUE_ si a est **INFERIEUR OU EGAL** à b |
-| Supérieur         |    >    |  a > b  |                   Renvoie _TRUE_ si a est **SUPERIEUR** à b |
-| Supérieur ou égal |   >=    | a >= b  |           Renvoie _TRUE_ si a est **SUPERIEUR OU EGAL** à b |
+| Opérateur         | Syntaxe | Exemple | Résultat                                                             |                                   Fonctionnement                                    |
+| ----------------- | :-----: | :-----: | -------------------------------------------------------------------- | :---------------------------------------------------------------------------------: |
+| Egal              |   ==    | a == b  | Renvoie _TRUE_ si a et b sont **EGAUX**                              |                `==` vérifie que les deux éléments ont le même valeur                |
+| Identique         |   ===   | a === b | Renvoie _TRUE_ si a et b sont **EGAUX** et **DE MÊME TYPE**          | `===` vérifie que les deux éléments **ont la même valeur** et sont **de même type** |
+| Différent         |   !=    | a != b  | Renvoie _TRUE_ si a et b sont **DIFFERENT**                          |        `!=` vérifie que les deux éléments ne possède **pas la même valeur**         |
+| Différent         |   !==   | a !== b | Renvoie _TRUE_ si a et b sont **DIFFERENT** et de **TYPE DIFFERENT** |   `!==` vérifie que les éléments ne possède **ni la même valeur ni le même type**   |
+| Inférieur         |    <    |  a < b  | Renvoie _TRUE_ si a est **INFERIEUR** à b                            |     `<` vérifie que le premier élément est **strictement inférieur** au second      |
+| Inférieur ou égal |   <=    | a <= b  | Renvoie _TRUE_ si a est **INFERIEUR OU EGAL** à b                    |       `<=` vérifie que le premier élément est **inférieur ou égal** au second       |
+| Supérieur         |    >    |  a > b  | Renvoie _TRUE_ si a est **SUPERIEUR** à b                            |      `>` vérfie que le premier élément est **strictement suprieur** au second       |
+| Supérieur ou égal |   >=    | a >= b  | Renvoie _TRUE_ si a est **SUPERIEUR OU EGAL** à b                    |           `>=` vérifie que le premier est **supérieur ou égal** au second           |
 
 <br>
 
@@ -200,7 +203,7 @@ if (condition)
 }
 ```
 
-Premièrement nous pouvoir voir le mot-clé **`if`** désignant _si_, cet lui qui va initialiser la condition. Après nous voyons **`la condition`** entouré de parenthèses, c'est ici que vous entrerez votre ou vos opérations(s) logique(s) ou de comparaison(s). Entre les accolades, vous trouverez le code qui sera effectué si la condition vaut _TRUE_.
+Premièrement nous pouvoir voir le mot-clé **`if`** désignant _si_, c'est lui qui va initialiser la condition. Après nous voyons la **`condition`** entouré de parenthèses, c'est ici que vous entrerez votre ou vos opérations(s) logique(s) ou de comparaison(s). Entre les accolades, vous trouverez le code qui sera effectué si la condition vaut _TRUE_.
 
 ```
 {
@@ -282,6 +285,7 @@ if (B > 20) {
 <br>
 
 #### Ce n'est pas tout !
+
 Mais ce n'est pas la seule manière pour créer une condition, il existe une façon plus simple qui vous sera utile si vous enchainer les conditions.
 
 Vous trouverez dans la plupart des langages les instructions **swicth / case**. Avec ces instructions il sera plus simple de créer uns suite de conditions.
