@@ -153,12 +153,12 @@ System.out.println(B); // Renvoie => 12
 
 Liste d'opérateurs logiques existant
 
-| Opérateur | Syntaxe | Exemple  |                  Résultat                  |                                                      Fonctionnement                                                       |
-| --------- | :-----: | :------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Opérateur | Syntaxe | Exemple  | Résultat | Fonctionnement                                                       |
+| --------- | :-----: | :------: | :------: | :-----:
 | AND (ET)  |   &&    |  a && b  | Renvoie _TRUE_ si a **ET** b valent _TRUE_ | **`&&`** vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorqu'une opérations renvoie _FALSE_ |
-| AND (ET)  |    &    |  a & b   | Renvoie _TRUE_ si a **ET** b valent _TRUE_ |                                   **`&`** vérifie les deux opérations quoi qu'il arrive                                   |
-| OR (OU)   |  \|\|   | a \|\| b |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  |                                                             `                                                             |                                                 | ` vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorsqu'une opérations renvoie _FALSE_ |
-| OR (OU)   |   \|    |  a \| b  |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  |                                                             `                                                             | ` vérifie les deux opérations quoi qu'il arrive |
+| AND (ET)  |    &    |  a & b   | Renvoie _TRUE_ si a **ET** b valent _TRUE_ |                                   **`&`** vérifie les deux opérations **quoi qu'il arrive** |
+| OR (OU)   |  \|\|   | a \|\| b |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  | **`\|\|`** vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorsqu'une opérations renvoie _FALSE_ |
+| OR (OU)   |   \|    |  a \| b  |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  | **`\|`** vérifie les  deux opérations **quoi qu'il arrive** |
 | NOT (NON) |    !    |    !a    |    Renvoie _TRUE_ si a **VAUT** _FALSE_    |                                    `!` vérifie le caractère contraire d'une opérations                                    |
 
 <br>
