@@ -570,3 +570,9 @@ for (String value : arr) {
     System.out.printIn(value); // Renvoie 1, puis 2, puis 3, puis 4, puis 5
 }
 ```
+<br>
+
+----
+## Lire une erreurs<a name="errors"></a>
+
+# Disponible prochainement
