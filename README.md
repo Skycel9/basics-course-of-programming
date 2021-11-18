@@ -9,35 +9,37 @@
 ## Chapitres
 
 -   **[Variables, Constantes et Types](#variable-constante-type "Chapitre Premier")**<br>
-    -   **[Types](#type "Chapitre 1.1")**<br>
-    -   **[Constantes](#constante "Chapitre 1.2")**<br>
-    -   **[Variables](#variable "Chapitre 1.3")**<br>
+
+    -   **[Types](#types "Chapitre 1.1")**<br>
+    -   **[Variables](#variables "Chapitre 1.2")**<br>
+    -   **[Constantes](#constantes "Chapitre 1.3")**<br>
+
 -   **[Opérateurs logiques et de comparaisons](#operators "Chapitre 2")**<br>
 -   **[Conditions](#conditions "Chapitre 3")**<br>
 -   **[Boucles](#boucles "Chapitre 4")**<br>
--   **[Erreurs](#error "Chapitre 5")**<br>
+-   **[Erreurs](#errors "Chapitre 5")**<br>
     <br>
 
 ## Variables, Constantes et Types<a name="variable-constante-type"></a><br>
 
-Comme vous avez pu le lire dans le titre, nous allons voir dans ce premier chapitre des notions de base en programmation. Ces notions sont les [types](#type "Chapitre 1.3"), les [constantes](#constante "Chapitre 1.2") ainsi les [variables](#variable "Chapitre 1.1").<br>
+Comme vous avez pu le lire dans le titre, nous allons voir dans ce premier chapitre des notions de base en programmation. Ces notions sont les [types](#types "Chapitre 1.1"),[variables](#variable "Chapitre 1.2")ainsi les les [constantes](#constante "Chapitre 1.3") .<br>
 
 ---
 
-### Types<a name="type"></a>
+### Types<a name="types"></a>
 
 En informatique, lorsque nous parlons de types, il est question de **types de données**. Un type est ce qui défini la nature des valeurs que peut prendre une donnée.
 Il existe différents type de données que vous retrouverez ci-dessous :
 
--   **String** (chaîne de caractères), est un type qui s'écrit entre **`"`**, il peut contenir toutes les sortes de caractères. Exemple &rarr; `"string"`
--   **Integer** (Nombre entier relatif), est un type qui contient tous les entiers naturels auquel on ajoute un signe positif ou négatif. Exemple &rarr; `12` ou `-3`
--   **Float** (Nombre réel ou flottant), est un type contenant tous les nombres de l'ensemble réel, c'est à dire tous les nombres, ayant un nombre fini ou infini de décimal(s). Exemple &rarr; `1.465`
--   **Boolean** (Booléen), est un type possédant uniquement 2 états, qui sont généralement _TRUE_ ou _FALSE_. Exemple &rarr; `TRUE`
--   **Array** (Tableau), est un type de données paramétrées, contrairement aux précédent, il peut contenir plusieurs données . Sa syntaxe est généralement [ ] et chaque élément est séparé des autres par une `,`. Exemple &rarr; `["ma variable", "12", "TRUE"]`
+-   **String**<a name="type-str"></a> (chaîne de caractères), est un type qui s'écrit entre **`"`**, il peut contenir toutes les sortes de caractères. Exemple &rarr; `"string"`
+-   **Integer**<a name="type-int"></a> (Nombre entier relatif), est un type qui contient tous les entiers naturels auquel on ajoute un signe positif ou négatif. Exemple &rarr; `12` ou `-3`
+-   **Float**<a name="type-float"></a> (Nombre réel ou flottant), est un type contenant tous les nombres de l'ensemble réel, c'est à dire tous les nombres, ayant un nombre fini ou infini de décimal(s). Exemple &rarr; `1.465`
+-   **Boolean**<a name="type-bool"></a> (Booléen), est un type possédant uniquement 2 états, qui sont généralement _TRUE_ ou _FALSE_. Exemple &rarr; `TRUE`
+-   **Array**<a name="type-arr"></a> (Tableau), est un type de données paramétrées, contrairement aux précédent, il peut contenir plusieurs données . Sa syntaxe est généralement [ ] et chaque élément est séparé des autres par une `,`. Exemple &rarr; `["ma variable", "12", "TRUE"]`
 
 ---
 
-### Variables<a name="variable"></a>
+### Variables<a name="variables"></a>
 
 Avant toutes choses, definissons ce qu'est une variable, afin de partir avec les mêmes bases.
 Le terme de **variable** est un terme provenant des [mathématiques](https://fr.wikipedia.org/wiki/Math%C3%A9matiques), d'après le site [stephonsays](https://fr.strephonsays.com/variable-and-vs-constant-8185), les variables mathématiques sont des éléments qui peuvent contenir une valeur qui peut être modifiée. Les principales utilisations des variables sont dans les équations ou les fonctions.
@@ -89,7 +91,7 @@ _Java étant un langage fortement typé, il est nécessaire de comprendre les [t
 
 ---
 
-### Constantes<a name="constante"></a>
+### Constantes<a name="constantes"></a>
 
 Il est temps de passé aux constantes, les constantes sont des éléments, comme les variable, provenant des [mathématiques](https://fr.wikipedia.org/wiki/Math%C3%A9matiques), qui peuvent contenir des données. Les constantes sont généralement visible dans les sciences de la nature ou la physique et la chimie, par exemple il existe la [constante d'Avogadro](https://fr.wikipedia.org/wiki/Nombre_d%27Avogadro). Cependant à la différence des variables, une constante ne peut pas changer de valeur.
 <br>
@@ -153,13 +155,13 @@ System.out.println(B); // Renvoie => 12
 
 Liste d'opérateurs logiques existant
 
-| Opérateur | Syntaxe | Exemple  | Résultat | Fonctionnement                                                       |
-| --------- | :-----: | :------: | :------: | :-----:
-| AND (ET)  |   &&    |  a && b  | Renvoie _TRUE_ si a **ET** b valent _TRUE_ | **`&&`** vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorqu'une opérations renvoie _FALSE_ |
-| AND (ET)  |    &    |  a & b   | Renvoie _TRUE_ si a **ET** b valent _TRUE_ |                                   **`&`** vérifie les deux opérations **quoi qu'il arrive** |
-| OR (OU)   |  \|\|   | a \|\| b |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  | **`\|\|`** vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorsqu'une opérations renvoie _FALSE_ |
-| OR (OU)   |   \|    |  a \| b  |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  | **`\|`** vérifie les  deux opérations **quoi qu'il arrive** |
-| NOT (NON) |    !    |    !a    |    Renvoie _TRUE_ si a **VAUT** _FALSE_    |                                    `!` vérifie le caractère contraire d'une opérations                                    |
+| Opérateur | Syntaxe | Exemple  |                  Résultat                  |                                                            Fonctionnement                                                            |
+| --------- | :-----: | :------: | :----------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
+| AND (ET)  |   &&    |  a && b  | Renvoie _TRUE_ si a **ET** b valent _TRUE_ |      **`&&`** vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorqu'une opérations renvoie _FALSE_       |
+| AND (ET)  |    &    |  a & b   | Renvoie _TRUE_ si a **ET** b valent _TRUE_ |                                      **`&`** vérifie les deux opérations **quoi qu'il arrive**                                       |
+| OR (OU)   |  \|\|   | a \|\| b |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  |     **`\|\|`** vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorsqu'une opérations renvoie _FALSE_     |
+| OR (OU)   |   \|    |  a \| b  |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  | **`\|`** vérifie les deux opérations **quoi qu'il arrive** (_gauche à droite_) et **s'arrête** lorsqu'une opérations renvoie _FALSE_ |     |
+| NOT (NON) |    !    |    !a    |    Renvoie _TRUE_ si a **VAUT** _FALSE_    |                                         `!` vérifie le caractère contraire d'une opérations                                          |
 
 <br>
 
@@ -369,5 +371,202 @@ switch (i) {
     break;
     default:
         System.out.println("i est inconnu"); // Ne renvoie rien, le code n'est pas exécuter car la vérification de case "2" est passé
+}
+```
+
+<br>
+
+---
+
+## Les boucles<a name="boucles"></a>
+
+Les boucles sont des **fonctionnalités** disponible dans une grande majorité de langages informatiques, elles permettent de **répeter** une séquence de code. Il existe plusieurs sorte de boucle.
+
+#### Les différentes boucles
+
+Une boucle est un élément de prorramation qui permet d'exécuter un code plusieurs fois de suite, sans pour autant à ajouter le code plusieurs fois.
+
+##### Boucles "for"<a name="for"></a>
+
+Cette boucle est une boucle qui s'exécute le nombre de fois prédéfini. On retrouve trois éléments qui constituent la structure de cette boucle.
+
+-   Un élément **d'itinitialisation**, exéuter **avant toutes** les boucles
+-   Une **condition**, qui est vérifié **avant chaque** boucle
+-   Une **instruction**, _Incrémentation_ ou _Décrémentation_ exécuter **après chaque** boucle
+
+```
+for (defVariable; condition; instruction) {
+    code...
+}
+```
+
+Ci-dessus, nous initialisons la **variable**, ensuite nous entrons une **conditions** qui sera vérifiée à chaque nouvelle séquence de la boucle. Et pour finir, nous précisons **l'instruction** à effectuer à la fin de chaque occurence de la boucle.
+
+Exemple en **PHP**
+
+```php
+for ($i = 1; $i <= 10; $i++) {
+    echo $i; // Renvoie verra 1, puis 2, puis 3, ..., puis 10
+}
+```
+
+Exemple pour **Javascript**
+
+```js
+for (let i = 0; i <= 10; i++) {
+	console.log(i); // Renvoie verra 1, puis 2, puis 3, ..., puis 10
+}
+```
+
+Exemple avec **Java**
+
+```java
+for (int i = 0; i <= 10; i++) {
+    System.out.printIn(i); // Renvoie verra 1, puis 2, puis 3, ..., puis 10
+}
+```
+
+<br>
+
+---
+
+##### Boucles "while"<a name="while"></a>
+
+À la différence des boucles "for", la boucle **while** n'exécute pas le code un nombre de fois défini. Elle exécute tant que la condition renvoie _TRUE_
+
+Sa structure se construit de la sorte
+
+```
+while (condition) {
+    code...
+}
+```
+
+Le mot clé **while** permet de commener l'usage de la boucle while, ensuite on retrouve la **condition** qui, tant que renvoie _TRUE_ comme résultat, fera exécuter le code à l'intérieur de la boucle.
+
+Passons à aux exemple concrets
+**PHP**
+
+```php
+$i = 0;
+while ($i <= 10) {
+    echo $i; /// Renvoie verra 1, puis 2, puis 3, ..., puis 11
+    i++; // Incrémente (ajoute) 1 à la valeur i, i = i+1 ou i++
+}
+```
+
+**Javascript**
+
+```js
+let i = 0;
+while (i <= 10) {
+	console.log(i); // Renvoie verra 1, puis 2, puis 3, ..., puis 11
+	i++; // Incrémente (ajoute) 1 à la valeur i, i = i+1 ou i++
+}
+```
+
+**Java**
+
+```java
+int i = 0;
+while (i <= 10) {
+    System.out.printIn(i); // Renvoie verra 0, puis 1, puis 2, ..., puis 11
+    i++; // Incrémente (ajoute) 1 à la valeur i, i = i+1 ou i++
+}
+```
+
+<br>
+
+---
+
+##### Boucles do-while<a name="do-while"></a>
+
+Le fonctionnement de la boucle **do-while** est le même que que celui de la boucle [while](#while), à la différence que la condition est vérifé après le bloque d'instruction de la boucle ce qui assure _une_ exécution.
+
+La syntaxe de cette boucle est la suivante
+
+```
+do {
+    code...
+} while (condition);
+```
+
+Le début de l'instruction est **do** c'est lui qui initialise la boucle, à la suite on retrouve le code à exécuter à l'intérieur du bloc
+
+```
+{
+
+}
+```
+
+Ensuite nous mettons le mot clé **while** le même que pour la boucle [_while_](#while), enfin la **condition** est présente pour vérifier lorsque la boucle doit être arrêté.
+
+Exemple avec **PHP**
+
+```php
+$i = 0
+do {
+    echo $i; // Renvoie 0, puis 1, puis 2, ..., puis 11
+    $i++; // Incrémente (ajoute) 1 à la valeur de $i
+} while ($i <= 10);
+```
+
+Pour **Javascript**
+
+```js
+let i = 0;
+do {
+	console.log(i); // Renvoie 0, puis 1, puis 2, ..., puis 11
+	i++; // Incrémente (ajoute) 1 à la valeur de i
+} while (i <= 10);
+```
+
+Et **Java**
+
+```java
+int i = 0;
+do {
+    System.out.printIn(i); // Renvoie 0, puis 1, puis 2, ..., puis 11
+    i++; // Incrémente (ajoute) 1 à la valeur de i
+}
+```
+
+<br>
+
+---
+
+##### Boucle "forEach"<a name="forEach"></a>
+
+La dernière des boucles est la boucle forEach. Comme le dit son nom, elle permet de parcourir tout les éléments d'un [tableau](#type-arr).
+
+Sa structure diffère un peu d'un langage à l'autre, nous vous conseillons donc de vous renseigner pour le langage que vous souhaitez utiliser si ce dernier ne fait pas parti des langages supports de ce cours.
+
+Exemple **PHP**
+
+```php
+$arr = array(1, 2, 3, 4, 5); // Déclaration de la variable $arr qui est un tableau
+
+forEach($arr as $value) {
+    echo $value;// Renvoie 1, puis, 2, puis 3, puis 4, puis 5
+}
+```
+
+Exemple **Javascript**
+
+```js
+let arr = [1, 2, 3, 4, 5]; // Déclaration de la variable arr qui est un tableau
+
+arr.forEach((value) => {
+	console.log(value); // Renvoir 1, puis 2, puis 3, puis 4, puis 5
+});
+```
+
+Exemple **Java**
+
+```java
+List arr = new ArrayList(); // Déclaration de la variabke arr qui est un tableau
+
+for (String value : arr) {
+    System.out.printIn(value); // Renvoie 1, puis 2, puis 3, puis 4, puis 5
 }
 ```
