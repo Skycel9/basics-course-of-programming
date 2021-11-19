@@ -1,6 +1,6 @@
 <div align="center"><img src="https://cdn.pixabay.com/photo/2016/12/28/09/36/web-1935737__340.png"></div>
 
-# Cours et exercices pour les débutants en programation
+# Cours et exercices pour les débutants en programmation
 
 <br>
 
@@ -8,7 +8,7 @@
 
 ## Chapitres
 
--   **[Variables, Constantes et Types](#variable-constante-type "Chapitre Premier")**<br>
+-   **[Types, Variables & Constantes](#variable-constante-type "Chapitre Premier")**<br>
 
     -   **[Types](#types "Chapitre 1.1")**<br>
     -   **[Variables](#variables "Chapitre 1.2")**<br>
@@ -21,7 +21,7 @@
 -   **[Exercices](#exercice "Exercice")**
     <br>
 
-## Variables, Constantes et Types<a name="variable-constante-type"></a><br>
+## Types, Variables & Types<a name="variable-constante-type"></a><br>
 
 Comme vous avez pu le lire dans le titre, nous allons voir dans ce premier chapitre des notions de base en programmation. Ces notions sont les [types](#types "Chapitre 1.1"),[variables](#variable "Chapitre 1.2")ainsi les les [constantes](#constante "Chapitre 1.3") .<br>
 
