@@ -18,6 +18,7 @@
 -   **[Conditions](#conditions "Chapitre 3")**<br>
 -   **[Boucles](#boucles "Chapitre 4")**<br>
 -   **[Erreurs](#errors "Chapitre 5")**<br>
+-   **[Exercices](#exercice "Exercice")**
     <br>
 
 ## Variables, Constantes et Types<a name="variable-constante-type"></a><br>
@@ -185,7 +186,7 @@ Liste des opérateurs de comparaisons
 
 ---
 
-## Conditions
+## Les conditions<a name="conditions"></a>
 
 Une condition est un des éléments les plus **important** en programmation. C'est cet élément qui permettra de vérifier que l'utilisateur entre le bon type de données pour les calculs, ou pour un mots de passe par exemple.
 Mais avant de se lancer dans le développement de conditions, regardons de quoi elles se composent.
@@ -570,9 +571,65 @@ for (String value : arr) {
     System.out.printIn(value); // Renvoie 1, puis 2, puis 3, puis 4, puis 5
 }
 ```
-<br>
 
 ----
-## Lire une erreurs<a name="errors"></a>
 
-# Disponible prochainement
+## Lire une erreur<a name="errors"></a>
+
+### Comming soon...
+
+----
+## Exercices<a name="exercice"></a>
+
+Désormais, vous allez vous entrainer avec les [conditions](#conditions) !
+
+#### Exercice n°1
+
+Vous créerez un programme permettant de dire si l'âge rentré dans l'input est
+
+1. **Inférieur** à 18, la personne est mineure
+2. **Supérieur** à 18 et **inférieur** à 65, la personne est majeur et dans la vie active
+3. **Supérieur** à 65, la personne est à la retraite
+
+Voici le code de base à utiliser
+
+```php
+<form class="flex" method="POST">
+    <input type="number" name="age" placeholder="Entrez âge">
+    <input type="submit" value="Statut de la personne">
+</form>
+
+<?php
+    if (!$_POST) return;
+    $age = $_POST["age"]; // Variable d'âge
+
+    // Entrer votre code ci-dessous
+
+?>
+```
+
+#### Exercice n°2
+
+Vous créerez un programme permettant de dire si
+
+1. L'identifiant est **correct**, si _admin_
+2. Le mot de passe est **correct**, si _password_
+
+Voici le code de base à utiliser
+
+```php
+<form class="flex" method="POST">
+    <input type="text" name="identifiant" placeholder="Entrer votre identifiant">
+    <input type="text" name="password" placeholder="Entrer votre mot de passe">
+    <input type="submit" value="Connexion">
+</form>
+
+<?php
+    if (!$_POST) return;
+    $identifiant = $_POST["identifiant"]; // Variable d'identifiant
+    $motDePasse = $_POST["password"]; // Variable de mot de passe
+
+    // Entrer votre code ci-dessous
+
+?>
+```
