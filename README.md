@@ -1,6 +1,6 @@
 <div align="center"><img src="https://cdn.pixabay.com/photo/2016/12/28/09/36/web-1935737__340.png"></div>
 
-# Cours et exercices pour les débutants en programmation
+# Cours et exercices pour les débutants en programation
 
 <br>
 
@@ -8,7 +8,7 @@
 
 ## Chapitres
 
--   **[Types, Variables & Constantes](#variable-constante-type "Chapitre Premier")**<br>
+-   **[Variables, Constantes et Types](#variable-constante-type "Chapitre Premier")**<br>
 
     -   **[Types](#types "Chapitre 1.1")**<br>
     -   **[Variables](#variables "Chapitre 1.2")**<br>
@@ -16,14 +16,15 @@
 
 -   **[Opérateurs logiques et de comparaisons](#operators "Chapitre 2")**<br>
 -   **[Conditions](#conditions "Chapitre 3")**<br>
--   **[Boucles](#boucles "Chapitre 4")**<br>
--   **[Erreurs](#errors "Chapitre 5")**<br>
+-   **[Opérations ternaires](#ternary "Chapitre 4")**<br>
+-   **[Boucles](#boucles "Chapitre 5")**<br>
+-   **[Erreurs](#errors "Chapitre 6")**<br>
 -   **[Exercices](#exercice "Exercice")**
     <br>
 
-## Types, Variables & Types<a name="variable-constante-type"></a><br>
+## Variables, Constantes et Types<a name="variable-constante-type"></a><br>
 
-Comme vous avez pu le lire dans le titre, nous allons voir dans ce premier chapitre des notions de base en programmation. Ces notions sont les [types](#types "Chapitre 1.1"),[variables](#variable "Chapitre 1.2")ainsi les les [constantes](#constante "Chapitre 1.3") .<br>
+Comme vous avez pu le lire dans le titre, nous allons voir dans ce premier chapitre des notions de base en programmation. Ces notions sont les [types](#types "Chapitre 1.1"), [variables](#variable "Chapitre 1.2") ainsi les les [constantes](#constante "Chapitre 1.3") .<br>
 
 ---
 
@@ -157,7 +158,7 @@ System.out.println(B); // Renvoie => 12
 Liste d'opérateurs logiques existant
 
 | Opérateur | Syntaxe | Exemple  |                  Résultat                  |                                                            Fonctionnement                                                            |
-| --------- | :-----: | :------: | :----------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
+| --------- | :-----: | :------: | :----------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: | --- |
 | AND (ET)  |   &&    |  a && b  | Renvoie _TRUE_ si a **ET** b valent _TRUE_ |      **`&&`** vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorqu'une opérations renvoie _FALSE_       |
 | AND (ET)  |    &    |  a & b   | Renvoie _TRUE_ si a **ET** b valent _TRUE_ |                                      **`&`** vérifie les deux opérations **quoi qu'il arrive**                                       |
 | OR (OU)   |  \|\|   | a \|\| b |  Renvoie _TRUE_ si a **OU** b vaut _TRUE_  |     **`\|\|`** vérifie les opérations **dans l'ordre** (_gauche à droite_) et **s'arrête** lorsqu'une opérations renvoie _FALSE_     |
@@ -379,6 +380,10 @@ switch (i) {
 
 ---
 
+## Les opérations ternaires<a name="ternary"></a>
+
+---
+
 ## Les boucles<a name="boucles"></a>
 
 Les boucles sont des **fonctionnalités** disponible dans une grande majorité de langages informatiques, elles permettent de **répeter** une séquence de code. Il existe plusieurs sorte de boucle.
@@ -572,13 +577,23 @@ for (String value : arr) {
 }
 ```
 
-----
+---
 
 ## Lire une erreur<a name="errors"></a>
 
-### Comming soon...
+Savoir lire une erreur est un pilier du [débogage informatique](https://fr.wiktionary.org/wiki/d%C3%A9bogage). Cela vous permettra de supprimer toutes les erreurs de votre programme, afin de pouvoir l'utiliser sans soucis. Mais pour cela il faut comprendre la structure d'une erreur et où les trouver.
+Les erreurs que vous rencontrerez durant votre debogage peuvent apparaîtres à plusieurs endroits, en PHP par exemple vous les trouverez sur la page qui sera générée avec le code. En Javascript, cela se passe dans la console de votre IDE et/ou la console de votre navigateur, par exemple.
 
-----
+###### Avant de deboger, vous devez prendre connaissance des principaux types d'erreurs que vous pouvez rencontrer.<a name="error-types"></a>
+
+Le premier type est le plus récurrent, l'**erreur de syntaxe**. Cette erreur apparaît lorsque la [syntaxe](https://www.larousse.fr/dictionnaires/francais/syntaxe/76217 "Syntaxe - Sens 4") du langage n'est pas respecté. Contrairement au langue que nous utilisons quotidiennement tel que le français ou l'anglais, dans lesquelles nous pouvons faires des erreurs de syntaxe qui n'altère pas le sens. En informatique, une erreur de syntaxe engendre un arrêt du programme, aussi appelé [plantage](https://fr.wikipedia.org/wiki/Plantage). À défaut d'être les plus communes, elle sont les plus simple à corriger.
+
+En second, nous avons les erreurs de type **logique** aussi nommé **erreurs sémantiques**. Ce type ne créer pas d'arrêt du programme, et pour cause, ces erreurs sont des erreurs qui arrive lorsque vous attendez un certains résultat, mais que le résultat que renvoie votre code n'est pas le bon. Pour corriger ces erreurs, il faut repenser et relire le code écrit afin de comprendre ce qui ne va pas. Elle peuvent parfois être longue à deboger mais reste tout de même abordable.
+
+En enfin, en troisième type d'erreur on retrouve les erreurs dites **d'exécution**. Elles apparaîssent durant l'exécution de votre programme et avec des circonstances particulières. On les appel aussi des **exception** car elle renvoie vers un événement exceptionnel. Par exemple, un programme essaie de lire un fichier qui n'existe pas.
+
+---
+
 ## Exercices<a name="exercice"></a>
 
 Désormais, vous allez vous entrainer avec les [conditions](#conditions) !
