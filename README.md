@@ -384,6 +384,21 @@ switch (i) {
 
 Les opérations ternaires sont des expressions qui vous permettrons, dans certains cas, de remplacer les conditions, elles ont l'avantages d'avoir une syntaxe très simple et courte. Ce qui permet de gagner en efficacité et avoir un code plus simple.
 
+La syntaxe de ces opérations est la même dans tout les langages qui les acceptent. Elle se construit de la sorte `condition ? expression1 : expression2`.
+
+La condition est **l'opération** qui sera vérifié, si la condition est rempli, le code **renvoie la l'expression1**, sinon c'est **l'expression2 qui sera utilisé**.
+
+
+```js
+// Exemple d'opération ternaire
+
+i < 5 ? "i est inférieur à 5" : "i est supérieur à 5"
+
+// Il est possible d'emboîter les opérations ternaires
+
+i < 5 ? "i est inférieur à 5" : i < 10 ? "i est inférieur a 10" : "i est supérieur à 10"
+```
+
 ---
 
 ## Les boucles<a name="boucles"></a>
