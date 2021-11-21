@@ -382,6 +382,8 @@ switch (i) {
 
 ## Les opérations ternaires<a name="ternary"></a>
 
+Les opérations ternaires sont des expressions qui vous permettrons, dans certains cas, de remplacer les conditions, elles ont l'avantages d'avoir une syntaxe très simple et courte. Ce qui permet de gagner en efficacité et avoir un code plus simple.
+
 ---
 
 ## Les boucles<a name="boucles"></a>
