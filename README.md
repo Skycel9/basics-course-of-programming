@@ -615,6 +615,10 @@ Pour tester vos regex, vous pouvez vous rendre sur le site [regex101](https://re
 
 ---
 
+## Les promises
+
+La _"promesse"_ ou promise est une notion qui fait référence à un résultat non-connu lors de sa première référence car il sera calculé ultérieurement. Cette notion est utile dans son utilisation car elle rends le calcul plus _souple_, en exécutant cette promise en parallèle du code. Ce qui permet également de réduire la latence du programme.
+
 ## Lire une erreur<a name="errors"></a>
 
 Savoir lire une erreur est un pilier du [débogage informatique](https://fr.wiktionary.org/wiki/d%C3%A9bogage). Cela vous permettra de supprimer toutes les erreurs de votre programme, afin de pouvoir l'utiliser sans soucis. Mais pour cela il faut comprendre la structure d'une erreur et où les trouver.
