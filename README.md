@@ -615,7 +615,7 @@ Pour tester vos regex, vous pouvez vous rendre sur le site [regex101](https://re
 
 ---
 
-## Les promises<a name="promise"></a>
+## Les promises<a name="promises"></a>
 
 La _"promesse"_ ou promise est une notion qui fait référence à un résultat non-connu lors de sa première référence car il sera calculé ultérieurement. Cette notion est utile dans son utilisation car elle rends le calcul plus _souple_, en exécutant cette promise en parallèle du code. Ce qui permet également de réduire la latence du programme.
 
