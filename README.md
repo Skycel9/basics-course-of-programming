@@ -18,7 +18,9 @@
 -   **[Conditions](#conditions "Chapitre 3")**<br>
 -   **[Opérations ternaires](#ternary "Chapitre 4")**<br>
 -   **[Boucles](#boucles "Chapitre 5")**<br>
--   **[Erreurs](#errors "Chapitre 6")**<br>
+-   **[Expressions Régulières](#regex "Chapitre 6")**<br>
+-   **[Promise](#promises "Chapitre 7")**<br>
+-   **[Erreurs](#errors "Chapitre 8")**<br>
 -   **[Exercices](#exercice "Exercice")**
     <br>
 
@@ -593,6 +595,23 @@ for (String value : arr) {
     System.out.printIn(value); // Renvoie 1, puis 2, puis 3, puis 4, puis 5
 }
 ```
+
+## Les expressions régulières
+
+Une expression régulière, aussi appelée regex _(regular expression)_, est une chaine de caractères qui décrit l'ensemble des règles de syntaxes possibles d'une autre chaine de caractères.
+Elles ne sont pas essentielle pour vos débuts dans la programmation, mais deviennent très rapidement indispensables.
+
+La syntaxe, _quelques peu particulière_, peu en effrayer quelques uns, mais pas d'inquiètude, une fois la subtilité comprise, il devient aisé de les utiliser de la meilleure façon.
+
+Exemple de **regex**
+```regex
+https?://[a-zA-Z0-9\.-]+\.[a-zA-Z]{2,4}(/\S*)?
+```
+
+L'expression régulière ci-dessus est une expression qui pourrait être utilisé pour rechercher des URLs.
+
+Si vous souhaitez en apprendre plus sur les expressions régulières, voici un [site](https://www.lucaswillems.com/fr/articles/25/tutoriel-pour-maitriser-les-expressions-regulieres) qui explique bien le fonctionnement de ces-dernières.
+Pour tester vos regex, vous pouvez vous rendre sur le site [regex101](https://regex101.com/).
 
 ---
 
