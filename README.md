@@ -596,7 +596,7 @@ for (String value : arr) {
 }
 ```
 
-## Les expressions régulières
+## Les expressions régulières<a name="regex"></a>
 
 Une expression régulière, aussi appelée regex _(regular expression)_, est une chaine de caractères qui décrit l'ensemble des règles de syntaxes possibles d'une autre chaine de caractères.
 Elles ne sont pas essentielle pour vos débuts dans la programmation, mais deviennent très rapidement indispensables.
@@ -615,7 +615,7 @@ Pour tester vos regex, vous pouvez vous rendre sur le site [regex101](https://re
 
 ---
 
-## Les promises
+## Les promises<a name="promise"></a>
 
 La _"promesse"_ ou promise est une notion qui fait référence à un résultat non-connu lors de sa première référence car il sera calculé ultérieurement. Cette notion est utile dans son utilisation car elle rends le calcul plus _souple_, en exécutant cette promise en parallèle du code. Ce qui permet également de réduire la latence du programme.
 
