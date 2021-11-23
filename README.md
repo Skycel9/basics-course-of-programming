@@ -28,14 +28,12 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
             <li><a href="#">Chapitre 1.3 - Constantes</a></li>
         </ul>
         </details>
-        <br>
         <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 2</b> - Opérateurs logiques & de comparaisons</a></summary>
         <ul>
             <li><a href="#">Chapitre 2.1 - Opérateurs logiques</a></li>
             <li><a href="#">Chapitre 2.2 - Opérateurs de comparaisons</a></li>
         </ul>
         </details>
-        <br>
         <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 3</b> - Conditions, switch &  opérations ternaires</a></summary>
         <ul>
             <li><a href="#">Chapitre 3.1 - Conditions</a></li>
@@ -43,7 +41,6 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
             <li><a href="#">Chapitre 3.3 - Opérations ternaires</a></li>
         </ul>
         </details>
-        <br>
         <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 4</b> - Boucles</a></summary>
         <ul>
             <li><a href="#">Chapitre 4.1 - Boucle <b>for</b></a></li>
@@ -52,7 +49,6 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
             <li><a href="#">Chapitre 4.4 - Boucle <b>forEach</b></a></li>
         </ul>
         </details>
-        <br>
         <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 5</b> - Promises, fonctions & regex</a></summary>
         <ul>
             <li><a href="#">Chapitre 5.1 - Promises</a></li>
@@ -60,12 +56,13 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
             <li><a href="#">Chapitre 5.3 - Expressions régulières (Regex)</a></li>
         </ul>
         </details>
-        <br>
         <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 6</b> - Erreurs</a></summary>
         <ul>
             <li><a href="#">Chapitre 6.1 - Erreurs de syntaxe</a></li>
             <li><a href="#">Chapitre 6.2 - Erreurs sémantique</a></li>
             <li><a href="#">Chapitre 6.3 - Erreurs d'exécution</a></li>
             <li><a href="#">Chapitre 6.4 - Lire une erreur</a></li>
-
+        </ul>
+        </details>
+    </ul>
 </details>
