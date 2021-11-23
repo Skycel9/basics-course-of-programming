@@ -66,3 +66,16 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
         </details>
     </ul>
 </details>
+
+----
+> Ce cours est adapté à toutes les personnes s'intéressant de près ou de loin à la programmation. Il a pour vocation de vous aider dans l'apprentissage d'un langage de programmation en comprenant les principes centrales de l'informatique.
+
+----
+## Contributeurs
+
+<a href="https://github.com/Skycel9"><img style="border-radius: 50%" src="https://github.com/Skycel9.png?size=50" title="Skycel9 - Founder"></a>
+
+----
+### Soutien
+
+Si vous aimez le projet, vous pouvez le soutenir de plusieurs manière. En le fork sur votre profile github, en le y participant et proposant les exemples pour un langage n'en possédant pas encore via les [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls), ou en mettant une étoile ⭐ !
