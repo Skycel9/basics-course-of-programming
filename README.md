@@ -73,7 +73,7 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
 ----
 ## Contributeurs
 
-<a href="https://github.com/Skycel9"><img style="border-radius: 50%" src="https://github.com/Skycel9.png?size=50" title="Skycel9 - Founder"></a>
+<a href="https://github.com/Skycel9"><img src="http://assets.skycel.fr/Skycel9" title="Skycel9 - Founder"></a>
 
 ----
 ### Soutien
