@@ -1,6 +1,5 @@
 <center><h1>Chapitre 1.1 - Les types</h1></center>
 
----
 ### Définition
 
 En [informatique](https://fr.wikipedia.org/wiki/informatique) nous utilisons le terme de type pour évoquer les [types de données](https://fr.wikipedia.org/wiki/Type_%28informatique%29). Un type de données est ce qui permet de définir la **nature d'une donnée**. Il existe plusieurs type de données plus ou moins communes dont nous relaterons le fonctionnement et les différences ci-dessous.
