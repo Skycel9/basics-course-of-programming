@@ -63,3 +63,14 @@ Félictation, vous savez dès à présent déclarer  des constantes en **javascr
 #### Exercises
 
 ##### Comming soon...
+
+---
+
+#### Différence `var` vs `let`<a name="diff-var-let"></a>
+
+Comme vous avez pu le constater, il existe deux **mots-clés** pour déclarer une variable, il existe **`let`** et **`var`**. Il existe une subtilité entre les deux qui se trouvent dans la <u>porté d'accessibilité</u> de la variable.
+
+La **porté** ou **scope** de **`let`** est une porté de bloc, c'est à dire que la variable est accessible uniquement dans le bloc de code dans lequel elle est déclarée.
+À la différence du **`var`**, qui lui a un **scope** de fonction, autrement dit, la variable peut être appelé dans toute la fonction dans laquelle elle est déclarée.
+
+Pour les exemples vous pouvez vous rendre dans le [fichier variables.js](./variables.js)
