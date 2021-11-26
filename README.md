@@ -21,11 +21,11 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
     </summary>
     <br>
     <ul>
-        <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 1</b> - Types, variables & constantes</a></summary>
+        <details open="open"><summary><a href="./Chapter_1"><b style="color: #202020">Chapitre 1</b> - Types, variables & constantes</a></summary>
         <ul>
-            <li><a href="#">Chapitre 1.1 - Types</a></li>
-            <li><a href="#">Chapitre 1.2 - Variables</a></li>
-            <li><a href="#">Chapitre 1.3 - Constantes</a></li>
+            <li><a href="./Chapter_1/Types.md">Chapitre 1.1 - Types</a></li>
+            <li><a href="./Chapter_1/Variables.md">Chapitre 1.2 - Variables</a></li>
+            <li><a href="./Chapter_1/Constantes.md">Chapitre 1.3 - Constantes</a></li>
         </ul>
         </details>
         <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 2</b> - Opérateurs logiques & de comparaisons</a></summary>

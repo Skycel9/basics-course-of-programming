@@ -11,7 +11,7 @@
 ---
 #### Exemple de variables<a name="example-variables"></a>
 ```php
-// ${nomVariable} = {valeur}
+// $nomVariable = valeur
 
 $str = "my string";
 $float = 1.45;
@@ -29,3 +29,28 @@ La déclaration de variable en <img src="../../../assets/img/PHP.png" width="30p
 > Pour finir, il faut **attribuer une valeur** à la variable. Pour cela, rien de plus simple, mettez le symbole **`=`** et ensuite indiquez la valeur que vous souhaitez donnée à la variable. Pour faire cela, basez-vous sur les [types de données](./../../../Types.md).
 
 Vous connaissez désormais la façon pour déclarer une variable en php, pour des exemples plus approfondi, rendez-vous [ici](./variables.php).
+
+---
+
+#### Exemple de constantes<a name="example-constantes"></a>
+
+```php
+// Define(nomVariable) = valeur
+
+define(Str, "my string");
+define(Float, 1.84);
+define(Int, 4);
+define(Bool, true);
+define(Arr, ["valeur1", "valeur2", "valeur3"]);
+```
+
+Le <img src="../../../assets/img/PHP.png" width="30px"> **php** permet l'utilisation de constantes et leur syntaxe est différente de celle des variables. Vous pouvez apercevoir la structure de la déclaration en **1ere** ligne de l'exemple.
+
+> La déclaration se passe dans le fonction **`define()`**, la fonction prend en *premier paramètre* le **nom de constante** qui doit respecter les mêmes règles les [variables](#example-variables). En *second paramètre*, vous mettrais la valeur que vous souhaitez **attribuer** à la constantes.
+
+Pour plus d'exemples sur les constantes, vous pouvez vous rendre sur les [exemples en code](./constantes.php).
+
+---
+#### Exercices
+
+##### Comming soon...

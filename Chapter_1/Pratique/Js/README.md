@@ -11,7 +11,8 @@
 ---
 #### Exemple de variables<a name="example-variable"></a>
 ```js
-// {let/var} {nomVariable} (= valeur)
+// let/var nomVariable
+// let/var nomVariable = valeur
 
 let str = "my String";
 let float = 1.92;
@@ -37,7 +38,7 @@ Vous savez désormais déclarer une variable en <img src="../../../assets/img/js
 #### Exemple de constantes<a name="example-constantes"></a>
 
 ```js
-// {const} {nomConstante} = {valeur}
+// const nomConstante = valeur
 
 const Str = "my constante";
 const Float = 1.28;
