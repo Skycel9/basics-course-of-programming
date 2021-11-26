@@ -7,7 +7,7 @@
 </ul>
 </details>
 
-> Vous trouverez ici-même les différents exemples pour les notions vu dans le chapitre 1.
+> Vous trouverez ici-même les différents exemples en javascript pour les notions vu dans le chapitre 1.
 ---
 #### Exemple de variables<a name="example-variable"></a>
 ```js
