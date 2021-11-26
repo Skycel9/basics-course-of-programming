@@ -30,7 +30,7 @@ La déclaration de variable en <img src="../../../assets/img/js.png" width="20px
 
 > Ensuite, vous avez le choix **d'attribuer une valeur** ou non. Si vous *souhaitez attribuer* une valeur, un simple `=` permet de dire que l'on assigne une valeur à la variable, suivi de la valeur, dépendante du [type de données](../../../../Types.md) souhaité. Si vous *ne souhaitez pas assigner* de valeur dans l'immédiat vous pouvez simplement passé à la ligne suivante de votre programme.
 
-Vous savez désormais déclarer une variable en <img src="../../../assets/img/js.png" width="20px"> **javascript**, rendez- sur les prochains exemples pour apprendre la déclaration des **constantes**.
+Vous savez désormais déclarer une variable en <img src="../../../assets/img/js.png" width="20px"> **javascript**, rendez- sur les prochains exemples pour apprendre la déclaration des **constantes**. Vous pouvez jeter un oeil sur les [examples](./variables.js) en code.
 
 ---
 
@@ -39,7 +39,7 @@ Vous savez désormais déclarer une variable en <img src="../../../assets/img/js
 ```js
 // {const} {nomConstante} = {valeur}
 
-const Str = "myConstante";
+const Str = "my constante";
 const Float = 1.28;
 const Int = 4;
 const Bool = false;
@@ -54,4 +54,12 @@ En <img src="../../../assets/img/js.png" width="20px"> **javascript**, nous avon
 
 > Pour finir, vous devez **atribuer une valeur** cela se fait après le symbole **`=`** et devez vous baser sur les [types de données](../../../../Types.md) pour choisir la valeur que vous souhaitez utiliser.
 
+Vous pouvez aller voir des [exemples](./constantes.js), pour mieux comprendre leur utilisation et subilités.
+
+Félictation, vous savez dès à présent déclarer  des constantes en **javascript**. Vous pouvez réaliser les [exercices]() suivant afin de vous entrainer et vérifier que vous avez bien compris les notions.
+
 ---
+
+#### Exercises
+
+##### Comming soon...
