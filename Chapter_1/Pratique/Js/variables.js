@@ -10,7 +10,7 @@ var arr = [1, 2, 3];
 console.log(str); // Renvoi my string
 console.log(float); // Renvoi 1.64
 console.log(int); // Renvoi 4
-console.log(bool); // Renvoi true
+console.log(bool); // Renvoi true ou 1
 console.log(arr); // Renvoi [1, 2, 3]
 
 
