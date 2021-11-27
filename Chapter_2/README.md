@@ -1,13 +1,12 @@
-<center><h1>Chapitre I - Types, variables & constantes</h1></center>
+<center><h1>Chapitre 2 - Opérateurs logiques & de comparaisons</h1></center>
 
 <details open="open"><summary><b>Programme du chapitre</b></summary>
-&nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Types.md" title="Types">1.1 - Types</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Variables.md" title="Variables">1.2 - Variables</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Constantes.md" title="Constantes">1.3 - Constantes</a>
+&nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Logic.md" title="Opérateurs logiques">2.1 - Opérateurs logiques</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Comparison.md" title="Opérateurs de comparaison">2.2 - Opérateurs de comparaisons</a><br>
 </details>
 <br>
 
-> Dans ce chapitre, nous verrons les principes de bases pour comprendre la manipulation de donnée, en programmation. Nous **ne toucherons pas** aux [bases de données](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es "Wikipédia.org") ici. Nous verrons simplement les éléments importants pour bien commencer.
+> Ce chapitre va porté sur les **opérateurs** que nous utilisons le plus en programmation. Les opérateurs que nous verrons ici nous *serons utile* dans un futur chapitre, il est donc essentielle de bien comprendre ce que nous verrons.
 
 > Des exemples sont aussi à votre disposition, pour mieux comprendre le fonctionnement des notions. Les exemples sont données dans certains langages, si vous souhaitez en ajouter pour un langage absent, vous pouvez proposer vos exemple via [pull request](https://github.com/Skycel9/basics-course-of-programming/pulls).
 
