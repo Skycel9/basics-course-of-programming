@@ -7,5 +7,3 @@
 <br>
 
 > Ce chapitre va porté sur les **opérateurs** que nous utilisons le plus en programmation. Les opérateurs que nous verrons ici nous *serons utile* dans un futur chapitre, il est donc essentielle de bien comprendre ce que nous verrons.
-
-> Des exemples sont aussi à votre disposition, pour mieux comprendre le fonctionnement des notions. Les exemples sont données dans certains langages, si vous souhaitez en ajouter pour un langage absent, vous pouvez proposer vos exemple via [pull request](https://github.com/Skycel9/basics-course-of-programming/pulls).
