@@ -8,37 +8,37 @@
 #### ⚠️ Disclaimer
 <br>
 
-> _Ce cours est un cours **open source**, il est possible que certaines informations puissent comprendre des erreurs. Si vous pensez pouvoir corriger quelque choses, vous pouvez créer une [issue](https://github.com/Skycel9/basics-course-of-programming/issues)._
+> _Ce cours est un cours **open source**, il est possible que certaines informations puissent comprendre des erreurs. Si vous pensez pouvoir corriger quelque chose, vous pouvez créer une [issue](https://github.com/Skycel9/basics-course-of-programming/issues)._
 
-> _Si vous souhaitez adapter les exemples de cours dans un autres langage, vous êtes les bienvenue et pouvez vous rendre dans l'onglet [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls)._
+> _Si vous souhaitez adapter les exemples de cours dans un autres langage, vous êtes les bienvenues et pouvez vous rendre dans l'onglet [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls)._
 
 <br>
 
-Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci-dessous les chapitres disponible.
+Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci-dessous les chapitres disponibles.
 
 <details open="open">
     <summary><i style="font-style: normal; font-size: 23px; font-weight: 700">Sommaire</i>
     </summary>
     <br>
     <ul>
-        <details open="open"><summary><a href="./Chapter_1"><b style="color: #202020">Chapitre 1</b> - Types, variables & constantes</a></summary>
+        <details open="open"><summary><a href="./Chapter_1/README.md"><b style="color: #202020">Chapitre 1</b> - Types, variables & constantes</a></summary>
         <ul>
             <li><a href="./Chapter_1/Types.md">Chapitre 1.1 - Types</a></li>
             <li><a href="./Chapter_1/Variables.md">Chapitre 1.2 - Variables</a></li>
             <li><a href="./Chapter_1/Constantes.md">Chapitre 1.3 - Constantes</a></li>
         </ul>
         </details>
-        <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 2</b> - Opérateurs logiques & de comparaisons</a></summary>
+        <details open="open"><summary><a href="./Chapter_2/README.md"><b style="color: #202020">Chapitre 2</b> - Opérateurs logiques & de comparaisons</a></summary>
         <ul>
-            <li><a href="#">Chapitre 2.1 - Opérateurs logiques</a></li>
-            <li><a href="#">Chapitre 2.2 - Opérateurs de comparaisons</a></li>
+            <li><a href="./Chapter_2/Logic.md">Chapitre 2.1 - Opérateurs logiques</a></li>
+            <li><a href="./Chapter_2/Comparison.md">Chapitre 2.2 - Opérateurs de comparaisons</a></li>
         </ul>
         </details>
-        <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 3</b> - Conditions, switch &  opérations ternaires</a></summary>
+        <details open="open"><summary><a href="./Chapter_3/README.md"><b style="color: #202020">Chapitre 3</b> - Conditions, switch &  opérations ternaires</a></summary>
         <ul>
-            <li><a href="#">Chapitre 3.1 - Conditions</a></li>
-            <li><a href="#">Chapitre 3.2 - Switch</a></li>
-            <li><a href="#">Chapitre 3.3 - Opérations ternaires</a></li>
+            <li><a href="./Chapter_3/Conditions.md">Chapitre 3.1 - Conditions</a></li>
+            <li><a href="./Chapter_3/Swicth.md">Chapitre 3.2 - Switch</a></li>
+            <li><a href="./Chapter_3/Ternary.md">Chapitre 3.3 - Opérations ternaires</a></li>
         </ul>
         </details>
         <details open="open"><summary><a href="#"><b style="color: #202020">Chapitre 4</b> - Boucles</a></summary>
