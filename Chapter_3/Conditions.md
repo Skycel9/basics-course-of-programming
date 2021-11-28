@@ -32,4 +32,4 @@ Le mot-clé **`else`** est le mot-clé qui défini le code a exécuter si la con
 
 Malgré beaucoup de similitudes sur les conditions dans les langages, **certains ne suivent pas exactement la même syntaxe**.
 
-Pour être sûr de la syntaxe dans le langage que vous utilisez, vous pouvez jeter un oeil dans les [exemples](./Practice) ou sur la documentation du langage en question.
+Pour être sûr de la syntaxe dans le langage que vous utilisez, vous pouvez jeter un oeil dans les [exemples](./Practice/Examples) ou sur la documentation du langage en question.

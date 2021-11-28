@@ -9,4 +9,4 @@ En **programmation**, une variable fonctionne plus ou moins de la même manière
 
 #### Comment déclare-t-on une variable
 
-La déclaration des variables est dépendente du langage utilisé, c'est à dire que la syntaxe peut changer d'un langage à l'autre. Vous trouverez des exemples pour certains langages dans [examples](./examples "dossier d'example").
+La déclaration des variables est dépendente du langage utilisé, c'est à dire que la syntaxe peut changer d'un langage à l'autre. Vous trouverez des exemples pour certains langages dans [examples](./Practice/Examples "Dossier d'example").

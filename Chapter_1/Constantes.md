@@ -8,4 +8,4 @@ En développement, nous utilisons également les *constantes* dans certains prog
 
 ### Comment déclarer une constante ?
 
-Pour déclarer les constantes, il existe plusieurs syntaxes possible qui dépendent du langage de programmation que vous utilisez. Vous trouverez quelques exemples dans le dossier [example](./examples "Dossier d'exemple").
+Pour déclarer les constantes, il existe plusieurs syntaxes possible qui dépendent du langage de programmation que vous utilisez. Vous trouverez quelques exemples dans le dossier [example](./Practice/Examples "Dossier d'exemple").
