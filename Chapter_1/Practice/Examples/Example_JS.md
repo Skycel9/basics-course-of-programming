@@ -61,12 +61,6 @@ Félictation, vous savez dès à présent déclarer  des constantes en **javascr
 
 ---
 
-#### Exercises
-
-##### Comming soon...
-
----
-
 #### Différence `var` vs `let`<a name="diff-var-let"></a>
 
 Comme vous avez pu le constater, il existe deux **mots-clés** pour déclarer une variable, il existe **`let`** et **`var`**. Il existe une subtilité entre les deux qui se trouvent dans la <u>porté d'accessibilité</u> de la variable.

@@ -49,8 +49,3 @@ Le <img src="../../../assets/img/PHP.png" width="30px"> **php** permet l'utilisa
 > La déclaration se passe dans le fonction **`define()`**, la fonction prend en *premier paramètre* le **nom de constante** qui doit respecter les mêmes règles les [variables](#example-variables). En *second paramètre*, vous mettrais la valeur que vous souhaitez **attribuer** à la constantes.
 
 Pour plus d'exemples sur les constantes, vous pouvez vous rendre sur les [exemples en code](./constantes.php).
-
----
-#### Exercices
-
-##### Comming soon...
