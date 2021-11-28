@@ -4,7 +4,6 @@
 <ul>
     <li><a href="#example-conditions">Conditions</a></li>
     <li><a href="#example-switch">Switch</a></li>
-    <li><a href="#example-ternary">Opération ternaire</a></li>
 </ul>
 </details>
 
@@ -12,7 +11,7 @@
 
 ---
 
-#### Exemple de conditions<a name="example-condition"></a>
+#### Exemple de conditions<a name="example-conditions"></a>
 ```js
 if (i > 0) {
     console.log("i est positif");
@@ -55,13 +54,3 @@ switch (i) {
 Le **switch** en <img src="../../../assets/img/js.png" width="20px"> javascript possède une syntaxe globalement similaire à celle d'autres langages, ce qui facilite sont apprentissage et son utilisation.
 
 > Pour commencer, on voit le mot-clé **switch** qui initialise l'utilisation du switch. Ensuite nous mettons se que nous voulons tester, dans le cas présent `i`. On ouvre un bloc de code, et on y place un **case**, qui est ce à quoi i doit être égal pour être validé. Si ce n'est pas le cas le code continue et va check les autres case. Si un des case renvoie _TRUE_, le code va être exécuté. Si aucun ne l'est et qu'un **default** est présent, c'est le code dans le default qui sera exécuté. Lorsque l'exécution arrive sur un **break**, le switch sera arrêté. <u>À noter</u> que le break n'est pas obligatoire.
-
----
-
-#### Exercises
-
-##### Comming soon...
-
----
-
-Pour des exemples concret vous pouvez aller voir dans le fichier [examples.js](./conditions.js).
