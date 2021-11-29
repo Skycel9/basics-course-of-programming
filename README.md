@@ -10,7 +10,7 @@
 
 > _Ce cours est un cours **open source**, il est possible que certaines informations puissent comprendre des erreurs. Si vous pensez pouvoir corriger quelque chose, vous pouvez créer une [issue](https://github.com/Skycel9/basics-course-of-programming/issues)._
 
-> _Si vous souhaitez adapter les exemples de cours dans un autres langage, vous êtes les bienvenues et pouvez vous rendre dans l'onglet [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls)._
+> _Si vous souhaitez adapter les exemples de cours dans un autre langage, vous êtes les bienvenues et pouvez vous rendre dans l'onglet [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls)._
 
 <br>
 
@@ -78,4 +78,4 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
 ----
 ### Soutien
 
-Si vous aimez le projet, vous pouvez le soutenir de plusieurs manière. En le fork sur votre profile github, en le y participant et proposant les exemples pour un langage n'en possédant pas encore via les [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls), ou en mettant une étoile ⭐ !
+Si vous aimez le projet, vous pouvez le soutenir de plusieurs manière. En le fork sur votre profil github, en le y participant et proposant les exemples pour un langage n'en possédant pas encore via les [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls), ou en mettant une étoile ⭐ !
