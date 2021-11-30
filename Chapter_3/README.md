@@ -1,4 +1,4 @@
-<center><h1>Chapitre 3 - Conditions, switch & opérations ternaires</h1></center>
+<center><h1>Chapitre III - Conditions, switch & opérations ternaires</h1></center>
 
 <details open="open"><summary><b>Programme du chapitre</b></summary>
 &nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Conditions.md" title="Opérateurs logiques">3.1 - Conditions</a><br>

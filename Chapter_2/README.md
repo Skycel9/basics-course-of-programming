@@ -1,4 +1,4 @@
-<center><h1>Chapitre 2 - Opérateurs logiques & de comparaisons</h1></center>
+<center><h1>Chapitre II - Opérateurs logiques & de comparaisons</h1></center>
 
 <details open="open"><summary><b>Programme du chapitre</b></summary>
 &nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Logic.md" title="Opérateurs logiques">2.1 - Opérateurs logiques</a><br>
