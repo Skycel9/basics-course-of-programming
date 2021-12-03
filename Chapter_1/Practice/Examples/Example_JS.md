@@ -31,8 +31,6 @@ La déclaration de variable en <img src="../../../assets/img/js.png" width="20px
 
 > Ensuite, vous avez le choix **d'attribuer une valeur** ou non. Si vous *souhaitez attribuer* une valeur, un simple `=` permet de dire que l'on assigne une valeur à la variable, suivi de la valeur, dépendante du [type de données](../../../../Types.md) souhaité. Si vous *ne souhaitez pas assigner* de valeur dans l'immédiat vous pouvez simplement passé à la ligne suivante de votre programme.
 
-Vous savez désormais déclarer une variable en <img src="../../../assets/img/js.png" width="20px"> **javascript**, rendez- sur les prochains exemples pour apprendre la déclaration des **constantes**. Vous pouvez jeter un oeil sur les [examples](./variables.js) en code.
-
 ---
 
 #### Exemple de constantes<a name="example-constantes"></a>
