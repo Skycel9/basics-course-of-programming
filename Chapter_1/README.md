@@ -13,8 +13,8 @@
 
 <details open="open"><summary><b>Exemples</b></summary>
 <ul>
-    <li><a href="./Practice/js">Javascript</a></li>
-    <li><a href="./Practice/php">Php</a></li>
+    <li><a href="./Practice/Examples/Example_Js.md">Javascript</a></li>
+    <li><a href="./Practice/Examples/Example_Php.md">Php</a></li>
     &nbsp;
     <li><a href="https://github.fr/Skycel9/basics-course-of-programming/pulls">Ajouter un langage d'exemples...</a></li>
 </ul>
