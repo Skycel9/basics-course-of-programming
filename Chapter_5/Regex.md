@@ -54,7 +54,7 @@ Intervalle | Equivalent | Traduction
 [0-9] | [0123456789] | Chiffres de 0 à 9
 [a-z0-9] | [abcdefghijklmnopqrstuvwxyz0123456789] | Lettres minuscules de a à z et chiifre de 0 à 9
 
-Comme dans la dernière ligne, il est possible de commuler des ensembles pour en faire un seul et simplifier d'autant plus l'expression
+Comme dans la dernière ligne, il est possible de cumuler des ensembles pour en faire un seul et simplifier d'autant plus l'expression
 
 Avec l'usage des intervalles notre intervalle donne donc
 ```regex
