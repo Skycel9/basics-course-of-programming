@@ -6,9 +6,9 @@
 </details>
 <br>
 
-> Ce chapitre porte sur des principes légèrement plus avancés, il est donc important d'être sûr d'avoir bien compris les notions précédentes avant de continuer pour ne pas avoir de soucis plus tard.
+> Ce chapitre porte sur des principes légèrement plus avancés, il est donc important d'être sûr d'avoir bien compris les notions précédentes avant de continuer pour ne pas avoir de lacunes plus tard.
 
-> Des exemples sont à votre disposition dans certain langages, si vous pensez pouvoir ajouter des exemples pour un langage qui n'en possède pas, vous pouvez proposer vos exemple via les [pulls requests](https://github.com/Skycel9/basics-course-of-programming/pulls).
+> Des exemples sont à votre disposition dans certains langages, si vous pensez pouvoir ajouter des exemples pour un langage qui n'en possède pas, vous pouvez proposer vos exemples via les [pulls requests](https://github.com/Skycel9/basics-course-of-programming/pulls).
 
 <details open="open"><summary><b>Exemples</b></summary>
 <ul>
