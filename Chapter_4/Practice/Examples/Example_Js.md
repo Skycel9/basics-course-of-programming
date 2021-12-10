@@ -11,7 +11,7 @@
 
 > Vous trouverez ici-même les différents exemples en javascript pour les notions vu dans le chapitre 4.
 ---
-### Exemple de boucle For
+### Exemple de boucle For<a name="example-for"></a>
 ```js
 /*
 for (variable; condition; opération) {
@@ -37,7 +37,7 @@ La boucle **for** en <img src="../../../assets/img/js.png" width="20px"> **javas
 
 ---
 
-### Exemple de boucle While
+### Exemple de boucle While<a name="example-while"></a>
 ```js
 /*
 while (condition) {
@@ -68,7 +68,7 @@ La boucle **while** en <img src="../../../assets/img/js.png" width="20px"> **jav
 
 ---
 
-### Exemple de boucle do-while
+### Exemple de boucle do-while<a name="example-do_while"></a>
 ```js
 /*
 do {
@@ -101,7 +101,7 @@ La boucle **do-while** en <img src="../../../assets/img/js.png" width="20px"> **
 > Enfin, nous avons la **condition** qui est vérifiée <u>après</u> chaque occurence afin de savoir si la boucle aura une nouvelle occurence.
 
 ---
-### Exemple de boucle ForEach
+### Exemple de boucle ForEach<a name="example-foreach"></a>
 ```js
 // Boucle forEach pour un tableau contenant tous les chiffres de 1 à 9
 /*
