@@ -1,0 +1,3 @@
+<center><h1>Chapitre 6.2 - Erreurs sémantiques</h1></center>
+
+Le second type d'erreur existant est l'erreur de **logique** aussi nommée erreur de **sémantique**. Ce type ne créer pas d'arrêt du programme, et pour cause, ces erreurs sont des erreurs qui arrive lorsque vous attendez un certain résultat, mais que le résultat que renvoie votre code n'est pas le bon. Pour corriger ces erreurs, il suffit repenser et relire le code écrit afin de comprendre ce qui ne va pas. Elle peuvent parfois être longue à deboguer mais reste tout de même abordable.
