@@ -1,4 +1,4 @@
-<center><h2>Exemples pour Javascript</h2><img src="../../../assets/img/php.png" width="150px"></center>
+<center><h2>Exemples pour Php</h2><img src="../../../assets/img/php.png" width="150px"></center>
 
 <details open="open"><summary>Notions</summary>
 <ul>
