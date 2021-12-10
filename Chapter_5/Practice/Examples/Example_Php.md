@@ -1,4 +1,4 @@
-<center><h2>Exemples pour Javascript</h2><img src="../../../assets/img/js.png" width="100px"></center>
+<center><h2>Exemples pour Php</h2><img src="../../../assets/img/php.png" width="150px"></center>
 
 <details open="open"><summary>Notions</summary>
 <ul>
@@ -7,32 +7,26 @@
 </ul>
 </details>
 
-> Vous trouverez ici-même les différents exemples en javascript pour les notions vu dans le chapitre 5.
----
+> Vous trouverez ici-même les différents exemples en php pour les notions vu dans le chapitre 5.
+
 ### Exemple de fonctions<a name="example-functions"></a>
-```js
+```php
 /*
 function nomFonction(paramètres) {
     code...
 }
 */
 
-function isEven(number) {
-    if (Number.isInteger(number/2)) return true;
-    else return false
+function isEven($number) {
+    if (is_integer($number/2)) echo true;
+    else echo false;
 }
 
-isEven(4) // Renvoi True
-isEven(9) // Renvoi False
-
-//Syntaxe moins pratique mais notable
-let isOdd = function() {
-    if (Number.isInteger(number/2)) return false;
-    else return true;
-}
+isEven(4); // Renvoi true
+isEven(9); // Renvoi false
 ```
 
-Ci-dessus la syntaxe pour **déclarer** une fonction en <img src="../../../assets/img/js.png" width="20px"> **javascript**.
+Ci-dessus la syntaxe pour **déclarer** une fonction en <img src="../../../assets/img/php.png" width="30px"> **php**.
 
 > Les fonctions sont **initialisées** par le mot clé **`function`**. C'est lui qui va dire que l'on commence la déclaration d'une fonction.
 
@@ -43,17 +37,17 @@ Ci-dessus la syntaxe pour **déclarer** une fonction en <img src="../../../asset
 ```js
 // Fonction sans paramètres
 function noParameters() {
-    return console.log("Cette fonction n'utilise aucun paramètres");
+    echo "Cette fonction n'utilise aucun paramètres";
 }
 
 // Fonction acceptant un nombre de paramètres limités
 function someParameters(first, second) {
-    return console.log("Cette fonction accepte 2 paramètres");
+    echo "Cette fonction accepte 2 paramètres";
 }
 
 // Fonction acceptant un nombre illimité de paramètres
 function manyParameters(...args) {
-    return console.log("Cette fonction accepte un nombre indéfini de paramètres");
+    echo "Cette fonction accepte un nombre indéfini de paramètres";
 }
 ```
 
@@ -62,13 +56,13 @@ function manyParameters(...args) {
 ---
 
 ### Exemple de fonctions fléchées<a name="example-arrow-functions"></a>
-```js
+```php
 /*
-let nomFonction = paramètres => code...
+$nomFonction = (paramètres) => code...;
 */
 
-let isEven = number => Number.isInteger(number/2)?true:false
+$isEven = ($number) => is_integer($number/2)?true:false;
 // Ici nous avons cumuler une fonction fléchée avec une opération ternaire pour optimiser le code
 ```
 
-Les **fonctions fléchées** en <img src="../../../assets/img/js.png" width="20px"> **javascript** sont utilisées pour simplifier la syntaxe de déclaration de fonctions.
+Les **fonctions fléchées** en <img src="../../../assets/img/php.png" width="30px"> **php** sont utilisées pour simplifier la syntaxe de déclaration de fonctions.
