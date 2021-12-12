@@ -32,21 +32,21 @@ let isOdd = function() {
 }
 ```
 
-Ci-dessus la syntaxe pour **déclarer** une fonction en <img src="../../../assets/img/js.png" width="20px"> **javascript**.
+Ci-dessus la syntaxe pour **déclarer** une fonction en <img src="../../../assets/img/js.png" width="20px"> javascript.
 
 > Les fonctions sont **initialisées** par le mot clé **`function`**. C'est lui qui va dire que l'on commence la déclaration d'une fonction.
 
 > Ensuite, la fonction doit être **nommée**, les mêmes règles que les noms pour les variables s'appliquent pour les fonctions.
 
-> Entre parenthèses, un ou plusieurs **paramètres** seront utilisés, un paramètres est, en quelques sortes, une variable qui sera donnée lors de l'usage de la fonction. À noter que les paramètres peuvent êtres limité à un certain nombre ou peuvent êtres illimités. Il se peut également qu'aucun paramètre soit utilisé.
+> Entre parenthèses, un ou plusieurs **paramètres** seront utilisés, un paramètres est, en quelques sortes, une variable qui sera donnée lors de l'usage de la fonction. À noter que les paramètres peuvent êtres limités à un certain nombre ou peuvent êtres illimités. Il se peut également qu'aucun paramètre soit utilisé.
 
 ```js
 // Fonction sans paramètres
 function noParameters() {
-    return console.log("Cette fonction n'utilise aucun paramètres");
+    return console.log("Cette fonction n'utilise aucun paramètre");
 }
 
-// Fonction acceptant un nombre de paramètres limités
+// Fonction acceptant un nombre de paramètres limité
 function someParameters(first, second) {
     return console.log("Cette fonction accepte 2 paramètres");
 }
@@ -68,7 +68,7 @@ let nomFonction = paramètres => code...
 */
 
 let isEven = number => Number.isInteger(number/2)?true:false
-// Ici nous avons cumuler une fonction fléchée avec une opération ternaire pour optimiser le code
+// Ici nous avons cumulé une fonction fléchée avec une opération ternaire pour optimiser le code
 ```
 
-Les **fonctions fléchées** en <img src="../../../assets/img/js.png" width="20px"> **javascript** sont utilisées pour simplifier la syntaxe de déclaration de fonctions.
+Les **fonctions fléchées** en <img src="../../../assets/img/js.png" width="20px"> javascript sont utilisées pour simplifier la syntaxe de déclaration de fonctions.

@@ -9,10 +9,10 @@
 </ul>
 </details>
 
-> Vous trouverez ici-même les différents exemples en javascript pour les notions vu dans le chapitre 4.
+> Vous trouverez ici-même les différents exemples en php pour les notions vu dans le chapitre 4.
 ---
 ### Exemple de boucle For<a name="example-for"></a>
-```js
+```php
 /*
 for (variable; condition; opération) {
     code...
@@ -26,13 +26,13 @@ for ($i = 0; i <= 3; i++) {
 }
 ```
 
-La boucle **for** en <img src="../../../assets/img/php.png" width="30px"> **php** suit la syntaxe visible dans le commentaire de bloc.
+La boucle **for** en <img src="../../../assets/img/php.png" width="30px"> php suit la syntaxe visible dans le commentaire de bloc.
 
 > En premier temps, nous trouvons **`for`**, l'élément **d'initialisation** de la boucle, il est semblable dans tout les langages acceptant la boucle for.
 
-> Par la suite, il faut **déclarer la variable et sa valeur**, elle sera utilisé dans la condition.
+> Par la suite, il faut **déclarer la variable et sa valeur**, elle sera utilisée dans la condition.
 
-> Après le `;` nous devons **définir la condition**, qui tant que validé effectuera une nouvelle occurence de la boucle.
+> Après le `;` nous devons **définir la condition**, qui tant que validée effectuera une nouvelle occurence de la boucle.
 
 > Pour finir, plaçons **l'opération**, cette dernière et le changement qui affectera la variable à la fin de chaque occurence de la boucle.
 
@@ -61,7 +61,7 @@ while ($i < 3) {
 }
 ```
 
-La boucle **while** en <img src="../../../assets/img/php.png" width="30px"> **php** suit une syntaxe disponible dans le commentaire de bloc.
+La boucle **while** en <img src="../../../assets/img/php.png" width="30px"> php suit une syntaxe disponible dans le commentaire de bloc.
 
 > Pour commencer, il faut **initialiser** la boucle, cela se fait avec **`while`**.
 
@@ -91,7 +91,7 @@ do {
 
 } while ($i < 3)
 ```
-La boucle **do-while** en <img src="../../../assets/img/php.png" width="30px"> **php** suit une syntaxe disponible dans le commentaire de bloc.
+La boucle **do-while** en <img src="../../../assets/img/php.png" width="30px"> php suit une syntaxe disponible dans le commentaire de bloc.
 
 > Tout d'abord, nous retrouvons **l'initialisateur** qui est l'instruction **`do`**
 
@@ -118,11 +118,11 @@ foreach($arr as $value) {
 })
 ```
 
-La boucle **forEach** en <img src="../../../assets/img/php.png" width="30px"> **php** est une boucle qui s'effectue sur les tableaux, et suit la syntaxe présente dans le commentaire de bloc ci-dessus.
+La boucle **forEach** en <img src="../../../assets/img/php.png" width="30px"> php est une boucle qui s'effectue sur les tableaux, et suit la syntaxe présente dans le commentaire de bloc ci-dessus.
 
 > Tout d'abord, nous avons l'initialisateur **`foreach`**
 
-> Suivi par le tableau, qui sera utilisé pour la boucle forEach. Directement à la suit enous avons un mot clé **`as`** pour attribuer à chaque itération la variable donné après ce mot clé.
+> Suivi par le tableau, qui sera utilisé pour la boucle forEach. Directement à la suite nous avons un mot clé **`as`** pour attribuer à chaque itération la variable donnée après ce mot clé.
 
 
 > Enfin, nous plaçons le **code** à exécuter pour chaque occurrence

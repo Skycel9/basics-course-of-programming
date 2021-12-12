@@ -77,4 +77,4 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
 ----
 ### Soutien
 
-Si vous aimez le projet, vous pouvez le soutenir de plusieurs manière. En le fork sur votre profil github, en y participant et proposant des exemples pour un langage n'en possédant pas encore via les [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls), ou en mettant une étoile ⭐ !
+Si vous aimez le projet, vous pouvez le soutenir de plusieurs manières. En le fork sur votre profil github, en y participant et proposant des exemples pour un langage n'en possédant pas encore via les [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls), ou en mettant une étoile ⭐ !

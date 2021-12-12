@@ -20,15 +20,14 @@ $bool = true;
 $arr = [1, 2, 3];
 ```
 
-La déclaration de variable en <img src="../../../assets/img/PHP.png" width="30px"> **Php** est très simple, comme le montre la **1ere** ligne, pour déclarer une variable il faudrat suivre des règles spécifique.
+La déclaration de variable en <img src="../../../assets/img/PHP.png" width="30px"> **Php** est très simple, comme le montre la **1ere** ligne, pour déclarer une variable il vous faudra suivre des règles spécifiques.
 
 > Premièrement, nous avons le symbole **`$`** qui est la pour initialiser la déclaration.
 
-> Ensuite il faut directement indiquer le **nom de variable**, ce dernier doit respecter les éléments suivant, <u>ne commence pas par un chiffre</u>, <u>doit commencer par `$`</u>, <u>peut contenir uniquement des valeurs [alphanumérique](https://www.larousse.fr/dictionnaires/francais/alphanum%C3%A9rique/2523 "Larousse.fr")</u>. Les noms de variables sont sensibles à la casse, c'est à dire que les noms de variables peuvent prendre de majuscule ou non. Vu qu'un exemple vaut mieux que mille mots : `$age` et `$Age` sont des **variables différentes**, car leurs syntaxe et sensiblement différente (*pas de majuscule et majuscule au début*). N'omettons pas le fait que le nom de variables doit être <u>unique</u>.
+> Ensuite il faut directement indiquer le **nom de variable**, ce dernier doit respecter les éléments suivant, <u>ne commence pas par un chiffre</u>, <u>doit commencer par `$`</u>, <u>peut contenir uniquement des valeurs [alphanumérique](https://www.larousse.fr/dictionnaires/francais/alphanum%C3%A9rique/2523 "Larousse.fr")</u>. Les noms de variables sont sensibles à la casse, c'est à dire que les noms de variables peuvent prendre de majuscule ou non. Vu qu'un exemple vaut mieux que mille mots : `$age` et `$Age` sont des **variables différentes**, car leur syntaxe et sensiblement différente (*pas de majuscule et majuscule au début*). N'omettons pas le fait que le nom de variable doit être <u>unique</u>.
 
 > Pour finir, il faut **attribuer une valeur** à la variable. Pour cela, rien de plus simple, mettez le symbole **`=`** et ensuite indiquez la valeur que vous souhaitez donnée à la variable. Pour faire cela, basez-vous sur les [types de données](./../../../Types.md).
 
-Vous connaissez désormais la façon pour déclarer une variable en php, pour des exemples plus approfondi, rendez-vous [ici](./variables.php).
 
 ---
 
@@ -46,6 +45,4 @@ define(Arr, ["valeur1", "valeur2", "valeur3"]);
 
 Le <img src="../../../assets/img/PHP.png" width="30px"> **php** permet l'utilisation de constantes et leur syntaxe est différente de celle des variables. Vous pouvez apercevoir la structure de la déclaration en **1ere** ligne de l'exemple.
 
-> La déclaration se passe dans le fonction **`define()`**, la fonction prend en *premier paramètre* le **nom de constante** qui doit respecter les mêmes règles les [variables](#example-variables). En *second paramètre*, vous mettrais la valeur que vous souhaitez **attribuer** à la constantes.
-
-Pour plus d'exemples sur les constantes, vous pouvez vous rendre sur les [exemples en code](./constantes.php).
+> La déclaration se passe dans le fonction **`define()`**, la fonction prend en *premier paramètre* le **nom de constante** qui doit respecter les mêmes règles les [variables](#example-variables). En *second paramètre*, vous mettrais la valeur que vous souhaitez **attribuer** à la constante.

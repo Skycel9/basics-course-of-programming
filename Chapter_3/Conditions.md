@@ -2,7 +2,7 @@
 
 ### Définition
 
-Les **conditons** ou **instruction conditionnel** est une fonction qui effectue différentes action en fonction du résultat d'une condition [booleenne](../Chapter_1/Types.md#types-bool). En programmation, elles sont très souvent utilisé car elles permettent de vérifier des éléments avant d'exécuter du code.
+Les **conditons** ou **instruction conditionnel** ou **boucle alternative** est une fonction qui effectue différentes actions en fonction du résultat d'une condition [booleenne](../Chapter_1/Types.md#types-bool). En programmation, elles sont très souvent utilisé car elles permettent de vérifier des éléments avant d'exécuter du code.
 
 En général, la structure des conditions ressemble à celle ci-dessous.
 

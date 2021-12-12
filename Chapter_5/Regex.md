@@ -2,11 +2,12 @@
 
 ### Definition
 
-Une **expressions régulière** ou **expressions rationnelles** est une chaîne de caractères qui décrit les différentes syntaxe accepté dans une autre chaîne de caractères. Elles sont aussi appelé **regex**, qui est un mot valise provenant de l'anglais et formé de _regular expression_.
+Une **expressions régulière** ou **expressions rationnelles** est une chaîne de caractères qui décrit les différentes syntaxes acceptées dans une autre chaîne de caractères. Elles sont aussi appelé **regex**, qui est un mot valise provenant de l'anglais et formé de _regular expression_.
 
-> La syntaxe des **Regex** est particulière et peut parfois en effrayer certains, mais cette frayeure n'est pas fondé. Une fois pencher sur la question elles sont très utiles et ne sont pas aussi compliqué qu'il n'y paraît
+> La syntaxe des **Regex** est particulière et peut parfois en effrayer certains, mais cette frayeure n'est pas fondée. Une fois penché sur la question elles sont très utiles et ne sont pas aussi compliqué qu'il n'y paraît
 
-> _Ce cours est en grande partie du site suivant : https://www.lucaswillems.com/fr/articles/25/tutoriel-pour-maitriser-les-expressions-regulieres_
+> _Ce cours est tiré du site suivant : https://www.lucaswillems.com/fr/articles/25/tutoriel-pour-maitriser-les-expressions-regulieres_
+C'est pourquoi nous vous invitons à vous y rendre pour comprendre en totalité les expressions régulières
 
 La syntaxe est la suivante
 <a href="https://www.lucaswillems.com/fr/articles/25/tutoriel-pour-maitriser-les-expressions-regulieres">
@@ -45,7 +46,7 @@ m[abcdefghijklmnopqrstuvwxyz]ts
 > Ici, l'expression accepte toutes les lettres de l'[alphabet latin](https://fr.wikipedia.org/wiki/Alphabet_latin)
 
 <br>
-Vous confenez bien qu'il n'est pas pratique d'utiliser cette syntaxe. C'est pourquoi des équivalents existe pour les différentes possibilités.
+Vous convenez bien qu'il n'est pas pratique d'utiliser cette syntaxe. C'est pourquoi des équivalents existent pour les différentes possibilités.
 
 Intervalle | Equivalent | Traduction
 ---------|------------|-----------

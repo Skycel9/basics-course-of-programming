@@ -26,7 +26,7 @@ isEven(4); // Renvoi true
 isEven(9); // Renvoi false
 ```
 
-Ci-dessus la syntaxe pour **déclarer** une fonction en <img src="../../../assets/img/php.png" width="30px"> **php**.
+Ci-dessus la syntaxe pour **déclarer** une fonction en <img src="../../../assets/img/php.png" width="30px"> php.
 
 > Les fonctions sont **initialisées** par le mot clé **`function`**. C'est lui qui va dire que l'on commence la déclaration d'une fonction.
 
@@ -34,8 +34,8 @@ Ci-dessus la syntaxe pour **déclarer** une fonction en <img src="../../../asset
 
 > Entre parenthèses, un ou plusieurs **paramètres** seront utilisés, un paramètres est, en quelques sortes, une variable qui sera donnée lors de l'usage de la fonction. À noter que les paramètres peuvent êtres limité à un certain nombre ou peuvent êtres illimités. Il se peut également qu'aucun paramètre soit utilisé.
 
-```js
-// Fonction sans paramètres
+```php
+// Fonction sans paramètre
 function noParameters() {
     echo "Cette fonction n'utilise aucun paramètres";
 }
@@ -62,7 +62,7 @@ $nomFonction = (paramètres) => code...;
 */
 
 $isEven = ($number) => is_integer($number/2)?true:false;
-// Ici nous avons cumuler une fonction fléchée avec une opération ternaire pour optimiser le code
+// Ici nous avons cumulé une fonction fléchée avec une opération ternaire pour optimiser le code
 ```
 
-Les **fonctions fléchées** en <img src="../../../assets/img/php.png" width="30px"> **php** sont utilisées pour simplifier la syntaxe de déclaration de fonctions.
+Les **fonctions fléchées** en <img src="../../../assets/img/php.png" width="30px"> php sont utilisées pour simplifier la syntaxe de déclaration de fonctions.

@@ -7,9 +7,9 @@
 </details>
 <br>
 
-> Dans ce chapitre nous aborderons le sujet des **condtion**, des **switch** ainsi que des **opérations ternaire**. Toutes ces notions sont intimement liées, mais contiennent toutes des différences, il est donc important de passé sur toutes.
+> Dans ce chapitre nous aborderons le sujet des **condtions**, des **switch** ainsi que des **opérations ternaires**. Toutes ces notions sont intimement liées, mais contiennent toutes des différences, il est donc important de passer sur toutes.
 
-> Des exemples sont aussi à votre disposition, pour mieux comprendre le fonctionnement des notions. Les exemples sont données dans certains langages, si vous souhaitez en ajouter pour un langage absent, vous pouvez proposer vos exemple via [pull request](https://github.com/Skycel9/basics-course-of-programming/pulls).
+> Des exemples sont aussi à votre disposition, pour mieux comprendre le fonctionnement des notions. Les exemples sont données dans certains langages, si vous souhaitez en ajouter pour un langage absent, vous pouvez proposer vos exemples via [pull request](https://github.com/Skycel9/basics-course-of-programming/pulls).
 
 <details open="open"><summary><b>Exemples</b></summary>
 <ul>

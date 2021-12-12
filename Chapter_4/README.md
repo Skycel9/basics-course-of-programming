@@ -8,9 +8,9 @@
 </details>
 <br>
 
-> Ce chapitre portera sur les différentes boucles existantes en informatique, mais avant tout, il faut savoir ce qu'en une boucle. Une boucle est un élément de programmation qui permet d'exécuter un code plusieurs fois de suite, sans pour autant à ajouter le code plusieurs fois.
+> Ce chapitre portera sur les différentes boucles existantes en informatique, mais avant tout, il faut savoir ce qu'est une boucle. Une boucle est un élément de programmation qui permet d'exécuter un code plusieurs fois de suite, sans pour autant ajouter le code plusieurs fois.
 
-> Des exemples sont aussi à votre disposition, pour mieux comprendre le fonctionnement des notions. Les exemples sont données dans certains langages, si vous souhaitez en ajouter pour un langage absent, vous pouvez proposer vos exemple via [pull request](https://github.com/Skycel9/basics-course-of-programming/pulls).
+> Des exemples sont aussi à votre disposition, pour mieux comprendre le fonctionnement des notions. Les exemples sont données dans certains langages, si vous souhaitez en ajouter pour un langage absent, vous pouvez proposer vos exemples via [pull request](https://github.com/Skycel9/basics-course-of-programming/pulls).
 
 <details open="open"><summary><b>Exemples</b></summary>
 <ul>

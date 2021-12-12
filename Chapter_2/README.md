@@ -6,4 +6,4 @@
 </details>
 <br>
 
-> Ce chapitre va porté sur les **opérateurs** que nous utilisons le plus en programmation. Les opérateurs que nous verrons ici nous *serons utile* dans un futur chapitre, il est donc essentielle de bien comprendre ce que nous verrons.
+> Ce chapitre va porter sur les **opérateurs** que nous utilisons le plus en programmation. Les opérateurs que nous verrons ici nous *serons utiles* dans un futur chapitre, il est donc essentiel de bien comprendre ce que nous verrons.

@@ -7,9 +7,9 @@
 </details>
 <br>
 
-> Dans ce chapitre, nous verrons les principes de bases pour comprendre la manipulation de donnée, en programmation. Nous **ne toucherons pas** aux [bases de données](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es "Wikipédia.org") ici. Nous verrons simplement les éléments importants pour bien commencer.
+> Dans ce chapitre, nous verrons les principes de bases pour comprendre la manipulation de données, en programmation. Nous **ne toucherons pas** aux [bases de données](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es "Wikipédia.org") ici. Nous verrons simplement les éléments importants pour bien commencer.
 
-> Des exemples sont aussi à votre disposition, pour mieux comprendre le fonctionnement des notions. Les exemples sont données dans certains langages, si vous souhaitez en ajouter pour un langage absent, vous pouvez proposer vos exemple via [pull request](https://github.com/Skycel9/basics-course-of-programming/pulls).
+> Des exemples sont aussi à votre disposition, pour mieux comprendre le fonctionnement des notions. Les exemples sont données dans certains langages, si vous souhaitez en ajouter pour un langage absent, vous pouvez proposer vos exemples via [pull request](https://github.com/Skycel9/basics-course-of-programming/pulls).
 
 <details open="open"><summary><b>Exemples</b></summary>
 <ul>

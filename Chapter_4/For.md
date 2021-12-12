@@ -2,9 +2,9 @@
 
 Cette boucle est une boucle qui s'exécute le nombre de fois prédéfini. On retrouve trois éléments qui constituent la structure de cette boucle.
 
--   Un élément **d'itinitialisation**, exéuter **avant toutes** les boucles
+-   Une **variable**, défini **avant** la première occurence
 -   Une **condition**, qui est vérifié **avant chaque** boucle
--   Une **instruction**, _[Incrémentation](https://www.larousse.fr/dictionnaires/francais/incr%C3%A9mentation/42414)_ ou _[Décrémentation](https://www.larousse.fr/dictionnaires/francais/d%C3%A9cr%C3%A9menter/22436)_ exécuter **après chaque** boucle
+-   Une **instruction**, _[Incrémentation](https://www.larousse.fr/dictionnaires/francais/incr%C3%A9mentation/42414)_ ou _[Décrémentation](https://www.larousse.fr/dictionnaires/francais/d%C3%A9cr%C3%A9menter/22436)_ exécutée **après chaque** boucle
 
 ```
 for (defVariable; condition; instruction) {

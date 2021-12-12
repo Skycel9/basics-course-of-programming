@@ -25,13 +25,13 @@ for (let i = 0; i <= 3; i++) {
 }
 ```
 
-La boucle **for** en <img src="../../../assets/img/js.png" width="20px"> **javascript** suit la syntaxe visible dans le commentaire de bloc.
+La boucle **for** en <img src="../../../assets/img/js.png" width="20px"> javascript suit la syntaxe visible dans le commentaire de bloc.
 
 > En premier temps, nous trouvons **`for`**, l'élément **d'initialisation** de la boucle, il est semblable dans tout les langages acceptant la boucle for.
 
-> Par la suite, il faut **déclarer la variable et sa valeur**, elle sera utilisé dans la condition.
+> Par la suite, il faut **déclarer la variable et sa valeur**, elle sera utilisée dans la condition.
 
-> Après le `;` nous devons **définir la condition**, qui tant que validé effectuera une nouvelle occurence de la boucle.
+> Après le `;` nous devons **définir la condition**, qui tant que validée effectuera une nouvelle occurence de la boucle.
 
 > Pour finir, plaçons **l'opération**, cette dernière et le changement qui affectera la variable à la fin de chaque occurence de la boucle.
 
@@ -60,7 +60,7 @@ while (i < 3) {
 }
 ```
 
-La boucle **while** en <img src="../../../assets/img/js.png" width="20px"> **javascript** suit une syntaxe disponible dans le commentaire de bloc.
+La boucle **while** en <img src="../../../assets/img/js.png" width="20px"> javascript suit une syntaxe disponible dans le commentaire de bloc.
 
 > Pour commencer, il faut **initialiser** la boucle, cela se fait avec **`while`**.
 
@@ -90,7 +90,7 @@ do {
 
 } while (i < 3)
 ```
-La boucle **do-while** en <img src="../../../assets/img/js.png" width="20px"> **javascript** suit une syntaxe disponible dans le commentaire de bloc.
+La boucle **do-while** en <img src="../../../assets/img/js.png" width="20px"> javascript suit une syntaxe disponible dans le commentaire de bloc.
 
 > Tout d'abord, nous retrouvons **l'initialisateur** qui est l'instruction **`do`**
 
@@ -103,13 +103,13 @@ La boucle **do-while** en <img src="../../../assets/img/js.png" width="20px"> **
 ---
 ### Exemple de boucle ForEach<a name="example-foreach"></a>
 ```js
-// Boucle forEach pour un tableau contenant tous les chiffres de 1 à 9
 /*
 arr.forEach(value=> {
     console.log(value);
 }
 */
 
+// Boucle forEach pour un tableau contenant tous les chiffres de 1 à 9
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 arr.forEach(value=> {
@@ -117,7 +117,7 @@ arr.forEach(value=> {
 })
 ```
 
-La boucle **forEach** en <img src="../../../assets/img/js.png" width="20px"> **javascript** est une boucle qui s'effectue sur les tableaux, et suit la syntaxe présente dans le commentaire de bloc ci-dessus.
+La boucle **forEach** en <img src="../../../assets/img/js.png" width="20px"> javascript est une boucle qui s'effectue sur les tableaux, et suit la syntaxe présente dans le commentaire de bloc ci-dessus.
 
 > Pour commencer, nous retrouvons le **tableau** sur lequel nous voulons utiliser la boucle.
 

@@ -10,4 +10,4 @@ while (condition) {
 }
 ```
 
-Le mot clé **while** permet de commencer l'usage de la boucle while, ensuite on retrouve la **condition** qui, tant que validé, fera exécuter le code à l'intérieur de la boucle.
+Le mot clé **while** permet de commencer l'usage de la boucle while, ensuite on retrouve la **condition** qui, tant que validée, fera exécuter le code à l'intérieur de la boucle.
