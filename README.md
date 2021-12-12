@@ -61,7 +61,6 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
             <li><a href="#">Chapitre 6.1 - Erreurs de syntaxe</a></li>
             <li><a href="#">Chapitre 6.2 - Erreurs sémantique</a></li>
             <li><a href="#">Chapitre 6.3 - Erreurs d'exécution</a></li>
-            <li><a href="#">Chapitre 6.4 - Lire une erreur</a></li>
         </ul>
         </details>
     </ul>
@@ -78,4 +77,4 @@ Ce cours présentera plusieurs chapitres sur diverses notions, vous trouverez ci
 ----
 ### Soutien
 
-Si vous aimez le projet, vous pouvez le soutenir de plusieurs manière. En le fork sur votre profil github, en le y participant et proposant les exemples pour un langage n'en possédant pas encore via les [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls), ou en mettant une étoile ⭐ !
+Si vous aimez le projet, vous pouvez le soutenir de plusieurs manière. En le fork sur votre profil github, en y participant et proposant des exemples pour un langage n'en possédant pas encore via les [pull requests](https://github.com/Skycel9/basics-course-of-programming/pulls), ou en mettant une étoile ⭐ !

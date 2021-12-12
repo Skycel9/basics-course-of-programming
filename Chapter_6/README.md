@@ -4,7 +4,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Syntaxe.md" title="Variables">6.1 - Erreurs de syntaxe </a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Semantic.md" title="Constantes">6.2 - Erreurs sémantique </a><br>
 &nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Execution.md">6.3 - Erreurs d'exécution</a><br>
-&nbsp;&nbsp;&nbsp;&nbsp;● <a href="./Read.md">6.4 - Lire une erreur</a><br>
 </details>
 <br>
 
